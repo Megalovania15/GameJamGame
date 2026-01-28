@@ -1,0 +1,68 @@
+using UnityEngine;
+using System.Collections.Generic;
+
+public class MaskEquip : MonoBehaviour
+{
+    [Header("References")]
+    [SerializeField] MaskVisual maskVisual;
+
+    MaskData currentMask;
+    readonly List<Ability> equippedAbilities = new();
+    readonly List<ActiveAbility> activeAbilities = new();
+
+    
+
+
+    public void EquipMask(MaskData mask)
+    {
+        UnequipMask();
+
+        currentMask = mask;
+
+        maskVisual.SetMask(mask.maskSprite);
+
+        foreach (var abilityDef in mask.abilties)
+        {
+            var abilityType = abilityDef.abilityScript.GetClass();
+            if (!typeof(Ability).IsAssignableFrom(abilityType) ) 
+            { continue; }
+
+            var ability = (Ability)gameObject.AddComponent(abilityType);
+            ability.OnEquip(gameObject, abilityDef.prefab);
+            equippedAbilities.Add(ability);
+
+            if (ability is ActiveAbility active)
+            {
+                activeAbilities.Add(active);
+            }
+
+        }
+
+    }
+
+    public void UnequipMask()
+    {
+        foreach (var ability in equippedAbilities)
+        {
+            ability.OnUnequip();
+            Destroy(ability);
+        }
+
+        equippedAbilities.Clear();
+        activeAbilities.Clear();
+        maskVisual.SetMask(null);
+        currentMask = null;
+
+
+    }
+
+    public void ActivateAbilities()
+    {
+        foreach (var ability in activeAbilities)
+        {
+            ability.Activate();
+        }
+    }
+
+
+}
