@@ -4,24 +4,46 @@ public class BeamAbility : ActiveAbility
 {
     [Header("Beam Settings")]
     public float distance = 3f;
+    public float duration = 3f;
+    public float elapsedTime = 0f;
+    public bool activated = false;
+
 
     public override void Activate()
     {
-        if (prefab == null)
+        
         {
-            Debug.LogError("BeamAbility prefab is NULL");
-            return;
+            if (prefab == null)
+            {
+                Debug.LogError("BeamAbility prefab is NULL");
+                return;
+            }
+
+            Vector2[] directions =
+            {
+            Vector2.up, Vector2.right,
+            new Vector2(1,1).normalized, new Vector2(-1,1).normalized};
+
+            foreach (var dir in directions)
+            {
+                SpawnBeam(dir);
+            }
+            activated = true;
+        }
+    }
+
+    private void Update()
+    {
+
+        if (activated)
+        {
+            elapsedTime += Time.deltaTime;
         }
 
-        Vector2[] directions =
+        if (elapsedTime >= duration)
         {
-        Vector2.up, Vector2.right,
-        new Vector2(1,1).normalized, new Vector2(-1,1).normalized
-    };
-
-        foreach (var dir in directions)
-        {
-            SpawnBeam(dir);
+            Debug.Log($"E {elapsedTime}    D{duration}");
+            this.gameObject.GetComponent<MaskEquip>().UnequipMask();
         }
     }
 

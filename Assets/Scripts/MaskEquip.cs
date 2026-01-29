@@ -10,7 +10,7 @@ public class MaskEquip : MonoBehaviour
     readonly List<Ability> equippedAbilities = new();
     readonly List<ActiveAbility> activeAbilities = new();
 
-    
+    public Sprite defaultHead;
 
 
     public void EquipMask(MaskData mask)
@@ -42,6 +42,8 @@ public class MaskEquip : MonoBehaviour
 
     public void UnequipMask()
     {
+        maskVisual.SetMask(defaultHead);
+
         foreach (var ability in equippedAbilities)
         {
             ability.OnUnequip();
@@ -52,7 +54,7 @@ public class MaskEquip : MonoBehaviour
         activeAbilities.Clear();
         maskVisual.SetMask(null);
         currentMask = null;
-
+        maskVisual.SetMask(defaultHead);
 
     }
 

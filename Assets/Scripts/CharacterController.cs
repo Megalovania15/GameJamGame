@@ -13,4 +13,7 @@ public class CharacterController : MonoBehaviour
             maskEquip.ActivateAbilities();
         }
     }
+
+    
+
 }
