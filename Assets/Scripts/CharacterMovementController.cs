@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.Rendering;
 
 
 public class CharacterMovementController : MonoBehaviour
@@ -11,12 +12,14 @@ public class CharacterMovementController : MonoBehaviour
     [SerializeField] private float moveSpeed;
     private Vector2 moveInput;
 
-
-    
+    public void TemporaryDisable()
+    {
+        //write code to probably change the movement speed to 0 temporarily
+    }
 
     public void MoveInput(InputAction.CallbackContext context)
     {
-        Debug.Log("Move Input Detected");
+        //Debug.Log("Move Input Detected");
         if (context.performed || context.canceled)
         {
             moveInput = context.ReadValue<Vector2>();

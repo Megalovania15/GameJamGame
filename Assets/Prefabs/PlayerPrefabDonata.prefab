@@ -62,10 +62,10 @@ Camera:
   m_LensShift: {x: 0, y: 0}
   m_NormalizedViewPortRect:
     serializedVersion: 2
-    x: 0
-    y: 0.38379854
-    width: 1
-    height: 0.2324029
+    x: 0.06622222
+    y: 0
+    width: 0.86755556
+    height: 1
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 60
@@ -188,13 +188,14 @@ GameObject:
   - component: {fileID: 1603041689059952319}
   - component: {fileID: 7207566341359818627}
   - component: {fileID: 3192060399833815674}
+  - component: {fileID: 992602528101847953}
   m_Layer: 0
   m_Name: PlayerPrefabDonata
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &5225630180893824391
 Transform:
   m_ObjectHideFlags: 0
@@ -257,7 +258,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_Sprite: {fileID: -9095717837082945937, guid: 207ee8102dd4143d288186ef0be518ee, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -469,6 +470,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maskEquip: {fileID: 9119582883511369160}
+--- !u!114 &992602528101847953
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1440369250227978478}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ef120fe518d7e044bf340e372b6cd9e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  characterBody: {fileID: 2461070846929169603, guid: cf4a946d23f72624faa3959f82023243, type: 3}
+  bloodPuddle: {fileID: 4386905097631917106, guid: 54a00869786565a48832b5a04d53e76c, type: 3}
 --- !u!1 &1540141013098287501
 GameObject:
   m_ObjectHideFlags: 0
@@ -680,7 +695,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -202.15997, y: 46.28}
+  m_AnchoredPosition: {x: -202.15991, y: 46.28003}
   m_SizeDelta: {x: 404.31006, y: 93.130005}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &4871702774414051401
