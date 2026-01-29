@@ -188,7 +188,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spriteRenderer: {fileID: 39712879}
   maskData: {fileID: 0}
-  _pickup: {fileID: 11400000, guid: 293cc96f9fc136d4fb2f078dfb10b702, type: 2}
+  _pickup: {fileID: 11400000, guid: 4ad0c4daf8e93f64aa7f566a159842ae, type: 2}
 --- !u!212 &39712879
 SpriteRenderer:
   m_ObjectHideFlags: 0

@@ -11,7 +11,7 @@ public class BeamAbility : ActiveAbility
 
     public override void Activate()
     {
-        
+        if (!activated) 
         {
             if (prefab == null)
             {
