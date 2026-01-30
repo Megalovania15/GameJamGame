@@ -417,7 +417,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!95 &558135870
 Animator:
   serializedVersion: 7
@@ -546,7 +546,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1486273996886033017, guid: bbb7f5e1cf5f2c84c93770af2d460ad4, type: 3}
       propertyPath: m_NormalizedViewPortRect.y
-      value: 0.09146494
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1486273996886033017, guid: bbb7f5e1cf5f2c84c93770af2d460ad4, type: 3}
       propertyPath: m_NormalizedViewPortRect.width
@@ -554,7 +554,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1486273996886033017, guid: bbb7f5e1cf5f2c84c93770af2d460ad4, type: 3}
       propertyPath: m_NormalizedViewPortRect.height
-      value: 0.8170701
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5225630180893824391, guid: bbb7f5e1cf5f2c84c93770af2d460ad4, type: 3}
       propertyPath: m_LocalScale.x

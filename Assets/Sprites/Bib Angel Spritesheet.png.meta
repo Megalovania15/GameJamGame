@@ -63,7 +63,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 400
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -129,9 +129,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 1674
-        width: 730
-        height: 696
+        y: 1600
+        width: 800
+        height: 800
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -150,10 +150,10 @@ TextureImporter:
       name: Bib Angel Spritesheet_1
       rect:
         serializedVersion: 2
-        x: 799
-        y: 1674
-        width: 731
-        height: 696
+        x: 800
+        y: 1600
+        width: 800
+        height: 800
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -172,10 +172,10 @@ TextureImporter:
       name: Bib Angel Spritesheet_2
       rect:
         serializedVersion: 2
-        x: 1599
-        y: 1674
-        width: 731
-        height: 696
+        x: 1600
+        y: 1600
+        width: 800
+        height: 800
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -195,9 +195,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 874
-        width: 730
-        height: 696
+        y: 800
+        width: 800
+        height: 800
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -216,10 +216,10 @@ TextureImporter:
       name: Bib Angel Spritesheet_4
       rect:
         serializedVersion: 2
-        x: 799
-        y: 874
-        width: 731
-        height: 696
+        x: 800
+        y: 800
+        width: 800
+        height: 800
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -234,11 +234,33 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: Bib Angel Spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 800
+        width: 800
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46ba69e4d7f048b4893729a32d26c110
+      internalID: 2029512123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: c37a6158b0a5a8744b8e90f0bbbd0224
     internalID: 0
     vertices: []
     indices: 
@@ -253,6 +275,7 @@ TextureImporter:
       Bib Angel Spritesheet_2: -832789023823648662
       Bib Angel Spritesheet_3: 5569111970103075908
       Bib Angel Spritesheet_4: -1783636070001672951
+      Bib Angel Spritesheet_5: 2029512123
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

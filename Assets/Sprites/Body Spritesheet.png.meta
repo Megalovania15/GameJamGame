@@ -134,10 +134,10 @@ TextureImporter:
       name: Body Spritesheet_0
       rect:
         serializedVersion: 2
-        x: 355
-        y: 1009
-        width: 158
-        height: 367
+        x: 0
+        y: 960
+        width: 854
+        height: 480
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -156,10 +156,10 @@ TextureImporter:
       name: Body Spritesheet_1
       rect:
         serializedVersion: 2
-        x: 1068
-        y: 1013
-        width: 382
-        height: 394
+        x: 854
+        y: 960
+        width: 854
+        height: 480
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -178,10 +178,10 @@ TextureImporter:
       name: Body Spritesheet_2
       rect:
         serializedVersion: 2
-        x: 1986
-        y: 1011
-        width: 279
-        height: 381
+        x: 1708
+        y: 960
+        width: 854
+        height: 480
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -200,10 +200,10 @@ TextureImporter:
       name: Body Spritesheet_3
       rect:
         serializedVersion: 2
-        x: 355
-        y: 529
-        width: 158
-        height: 367
+        x: 0
+        y: 480
+        width: 854
+        height: 480
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -222,10 +222,10 @@ TextureImporter:
       name: Body Spritesheet_4
       rect:
         serializedVersion: 2
-        x: 1232
-        y: 529
-        width: 142
-        height: 366
+        x: 854
+        y: 480
+        width: 854
+        height: 480
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -244,10 +244,10 @@ TextureImporter:
       name: Body Spritesheet_5
       rect:
         serializedVersion: 2
-        x: 2047
-        y: 527
-        width: 171
-        height: 394
+        x: 1708
+        y: 480
+        width: 854
+        height: 480
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -266,10 +266,10 @@ TextureImporter:
       name: Body Spritesheet_6
       rect:
         serializedVersion: 2
-        x: 283
-        y: 59
-        width: 356
-        height: 411
+        x: 0
+        y: 0
+        width: 854
+        height: 480
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -288,7 +288,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 344695ec875dd114c88e471f61cf1df1
     internalID: 0
     vertices: []
     indices: 

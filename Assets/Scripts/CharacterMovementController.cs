@@ -11,6 +11,8 @@ public class CharacterMovementController : MonoBehaviour
 
     [SerializeField] private float moveSpeed;
 
+    public bool canMove = true;
+
     private void Awake()
     {
         animator = GetComponent<Animator>();
@@ -32,21 +34,31 @@ public class CharacterMovementController : MonoBehaviour
 
     public void Move()
     {
-        Vector2 direction = SnapTo8Directions(moveInput);
-
-        rb.linearVelocity = direction * moveSpeed;
-
-        // Animator bool: true if moving, false if idle
-        animator.SetBool("isRunning", rb.linearVelocity.sqrMagnitude > 0.01f);
-
-        if (direction.x > 0.01f)
+        if (canMove)
         {
-            spriteRenderer.flipX = false; // facing right
+            Vector2 direction = SnapTo8Directions(moveInput);
+
+            rb.linearVelocity = direction * moveSpeed;
+
+            // Animator bool: true if moving, false if idle
+            animator.SetBool("isRunning", rb.linearVelocity.sqrMagnitude > 0.01f);
+
+            if (direction.x > 0.01f)
+            {
+                //spriteRenderer.flipX = false; // facing right
+                this.transform.localScale = new Vector3(1, 1, 1);
+            }
+            else if (direction.x < -0.01f)
+            {
+                //spriteRenderer.flipX = true; // facing left
+                this.transform.localScale = new Vector3(-1, 1, 1);
+            }
         }
-        else if (direction.x < -0.01f)
-        {
-            spriteRenderer.flipX = true; // facing left
-        }
+    }
+
+    public void SetMove()
+    {
+        canMove = !canMove;
     }
 
     Vector2 SnapTo8Directions(Vector2 input)

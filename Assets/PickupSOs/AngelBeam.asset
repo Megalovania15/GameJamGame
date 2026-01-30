@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: AngelBeam
   m_EditorClassIdentifier: 
   maskData: {fileID: 11400000, guid: c806d8deaa966af47b13431139b9a86e, type: 2}
-  maskPickupSprite: {fileID: -53353288, guid: 1a6aa600cb611184186579e12bb913a2, type: 3}
+  maskPickupSprite: {fileID: 6105377099455790497, guid: 09b8fee331719324eb562f6f03920867, type: 3}
