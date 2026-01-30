@@ -1,5 +1,6 @@
 public enum DeathType
 {
     Default,
-    Fall
+    Fall,
+    Crushed
 }

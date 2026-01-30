@@ -1,5 +1,6 @@
 using System;
 using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 
 [RequireComponent(typeof(BoxCollider2D))]
@@ -20,25 +21,48 @@ public class CrushTrap : MonoBehaviour
 
     private Vector3 initialPosition;
 
+    private HashSet<GameObject> objectsInDanger = new();
+    
+    private Coroutine springCoroutine;
+
     private void Start()
     {
         initialPosition = girder.transform.localPosition;
-        animator = GetComponent<Animator>();
         spriteRenderer = GetComponent<SpriteRenderer>();
     }
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        StartCoroutine(Crush());
-        animator.SetBool("isCrushed", true);
+        springCoroutine ??= StartCoroutine(Crush());
+        if (other.gameObject.TryGetComponent(out IMortal mortal))
+        {
+            Debug.Log("Entered Crush Trap");
+            objectsInDanger.Add(other.gameObject);
+        }
+    }
+
+    private void OnTriggerExit2D(Collider2D other)
+    {
+        if (other.gameObject.TryGetComponent(out IMortal mortal))
+        {
+            Debug.Log("Exited Crush Trap");
+            objectsInDanger.Remove(other.gameObject);
+        }
     }
 
     private IEnumerator Crush()
     {
-        yield return Shake();
-        yield return Drop();
-        yield return new WaitForSeconds(waitTime);
-        yield return Raise();
+        try
+        {
+            yield return Shake();
+            yield return Drop();
+            yield return new WaitForSeconds(waitTime);
+            yield return Raise();
+        }
+        finally
+        {
+            springCoroutine = null;
+        }
     }
 
     private IEnumerator Shake()
@@ -64,6 +88,11 @@ public class CrushTrap : MonoBehaviour
             localPosition.y -= (1f / dropTime) * Time.deltaTime;
             girder.transform.localPosition = localPosition;
             yield return null;
+        }
+
+        foreach (var objectInDanger in objectsInDanger)
+        {
+            objectInDanger.GetComponent<IMortal>().Die(DeathType.Crushed);
         }
     }
 

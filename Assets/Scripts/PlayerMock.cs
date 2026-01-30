@@ -11,5 +11,9 @@ public class PlayerMock : MonoBehaviour, IMortal
     public void Die(DeathType deathType)
     {
         Debug.Log("I died from: " + deathType);
+        if (deathType == DeathType.Crushed)
+        {
+            GetComponent<Animator>().SetBool("isCrushed", true);
+        }
     }
 }
