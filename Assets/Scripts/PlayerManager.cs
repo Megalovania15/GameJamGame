@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.InputSystem;
 using System.Collections;
 using NUnit.Framework;
@@ -10,12 +11,15 @@ public class PlayerManager : MonoBehaviour
     public int totalPlayers = 0;
     public List<GameObject> players;
 
+    public UnityEvent<GameObject> OnPlayerJoin;
 
     public void PlayerJoin(PlayerInput input)
     {
         input.gameObject.GetComponent<SplitScreenCamera>().index = totalPlayers;
         totalPlayers++;
         players.Add(input.gameObject);
+
+        OnPlayerJoin.Invoke(input.gameObject);
 
         foreach (var player in players)
         {

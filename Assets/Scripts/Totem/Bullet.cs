@@ -2,6 +2,8 @@ using UnityEngine;
 
 public class Bullet : MonoBehaviour
 {
+    public GameObject AbilityOwner { get; private set; }
+
     [SerializeField]
     private float speed = 2f;
     [SerializeField]
@@ -19,11 +21,17 @@ public class Bullet : MonoBehaviour
         Destroy(gameObject, lifetime);
     }
 
+    public void SetOwner(GameObject abilityOwner)
+    { 
+        AbilityOwner = abilityOwner;
+    }
+
     void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.TryGetComponent<IMortal>(out IMortal mortal))
         {
             mortal.Die(DeathType.Default);
+            AbilityOwner?.GetComponent<PlayerScore>().IncreaseKills();
         }
 
         Destroy(gameObject);

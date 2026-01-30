@@ -7,7 +7,8 @@ public class CharacterLife : MonoBehaviour, IMortal
     public GameObject characterBody;
     public GameObject bloodPuddle;
 
-    public UnityEvent <DeathType, GameObject> OnDeath;
+    [SerializeField]
+    private UnityEvent OnDeath;
 
     public void Die(DeathType deathType)
     {
@@ -22,7 +23,12 @@ public class CharacterLife : MonoBehaviour, IMortal
                 break;
         }
 
-        OnDeath.Invoke(deathType, gameObject);
+        OnDeath.Invoke();
         //gameObject.SetActive(false);
+    }
+
+    public void AddOnDeathListener(UnityAction action)
+    {
+        OnDeath.AddListener(action);
     }
 }

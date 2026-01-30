@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 704044418709492065}
   - component: {fileID: 2073837371333911876}
+  - component: {fileID: 1641539857639689032}
   m_Layer: 0
   m_Name: BloodPuddle
   m_TagString: Untagged
@@ -87,3 +88,17 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1641539857639689032
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4386905097631917106}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74220f159b518f44f8e4ea4fdb28a021, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectLifetime: 5
+  newColour: {r: 0.39215687, g: 0.12083083, b: 0.09105729, a: 0}

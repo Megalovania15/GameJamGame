@@ -92,7 +92,8 @@ public class Totem : MonoBehaviour
 
         while (currentTarget != null)
         {
-            Instantiate(bulletPrefab, shootPoint.position, shootPoint.rotation);
+            GameObject bullet = Instantiate(bulletPrefab, shootPoint.position, shootPoint.rotation);
+            bullet.GetComponent<Bullet>().SetOwner(Owner);
             yield return new WaitForSeconds(fireRate);
         }
     }
