@@ -69,7 +69,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 150
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -134,12 +134,12 @@ TextureImporter:
       name: Basic Attack Punches_0
       rect:
         serializedVersion: 2
-        x: 227
-        y: 971
-        width: 153
-        height: 392
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 0
+        y: 960
+        width: 854
+        height: 480
+      alignment: 9
+      pivot: {x: 0.3512068, y: 0.4623}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -156,19 +156,19 @@ TextureImporter:
       name: Basic Attack Punches_1
       rect:
         serializedVersion: 2
-        x: 1065
-        y: 974
-        width: 174
-        height: 381
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 854
+        y: 960
+        width: 854
+        height: 480
+      alignment: 9
+      pivot: {x: 0.3512068, y: 0.4623}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: b3b69779515eb33e0800000000000000
+      spriteID: 12218c85ecc2d94488f496931851c6a9
       internalID: -2072811322575590597
       vertices: []
       indices: 
@@ -178,19 +178,19 @@ TextureImporter:
       name: Basic Attack Punches_2
       rect:
         serializedVersion: 2
-        x: 1921
-        y: 972
-        width: 212
-        height: 385
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 1708
+        y: 960
+        width: 854
+        height: 480
+      alignment: 9
+      pivot: {x: 0.3512068, y: 0.4623}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 7245649ed3d324a30800000000000000
+      spriteID: d95d1d55de5116946a06b36be217f688
       internalID: 4197985138778723367
       vertices: []
       indices: 
@@ -200,19 +200,19 @@ TextureImporter:
       name: Basic Attack Punches_3
       rect:
         serializedVersion: 2
-        x: 211
-        y: 500
-        width: 280
-        height: 379
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 0
+        y: 480
+        width: 854
+        height: 480
+      alignment: 9
+      pivot: {x: 0.3512068, y: 0.4623}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: b082b35f00dca51f0800000000000000
+      spriteID: 8243c5006820dac4894f57c64f76631c
       internalID: -1055305758666971125
       vertices: []
       indices: 
@@ -222,19 +222,19 @@ TextureImporter:
       name: Basic Attack Punches_4
       rect:
         serializedVersion: 2
-        x: 1078
-        y: 500
-        width: 191
-        height: 380
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 854
+        y: 480
+        width: 854
+        height: 480
+      alignment: 9
+      pivot: {x: 0.3512068, y: 0.4623}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 7d6b48e9abf9206a0800000000000000
+      spriteID: f4cacb950007c05489e19b9b8f9b3711
       internalID: -6484444889587861801
       vertices: []
       indices: 
@@ -244,19 +244,19 @@ TextureImporter:
       name: Basic Attack Punches_5
       rect:
         serializedVersion: 2
-        x: 1932
-        y: 500
-        width: 166
-        height: 380
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 1708
+        y: 480
+        width: 854
+        height: 480
+      alignment: 9
+      pivot: {x: 0.3512068, y: 0.4623}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 711ca4a395de93f00800000000000000
+      spriteID: af9aee2ca6438614cbc46d1ba627ab1b
       internalID: 1097168951727276311
       vertices: []
       indices: 
@@ -266,19 +266,19 @@ TextureImporter:
       name: Basic Attack Punches_6
       rect:
         serializedVersion: 2
-        x: 214
-        y: 20
-        width: 260
-        height: 380
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 0
+        y: 0
+        width: 854
+        height: 480
+      alignment: 9
+      pivot: {x: 0.3512068, y: 0.4623}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: e561cf451d1227f50800000000000000
+      spriteID: 8fe0ab9a13e8ddb48af64e1ea5bca050
       internalID: 6877596763905857118
       vertices: []
       indices: 

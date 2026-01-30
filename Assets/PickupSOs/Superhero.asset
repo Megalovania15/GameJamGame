@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: Superhero
   m_EditorClassIdentifier: 
   maskData: {fileID: 11400000, guid: 643d71a783c07ea41a8ec3152cacee89, type: 2}
-  maskPickupSprite: {fileID: 1016199614, guid: 1a6aa600cb611184186579e12bb913a2, type: 3}
+  maskPickupSprite: {fileID: 21300000, guid: a96f521fc1317e44a847b45bef729cb6, type: 3}

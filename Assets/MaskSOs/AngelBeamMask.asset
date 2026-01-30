@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e144b8d5b121ed648bff2ef130edc035, type: 3}
   m_Name: AngelBeamMask
   m_EditorClassIdentifier: 
-  maskSprite: {fileID: -1566208183, guid: 1a6aa600cb611184186579e12bb913a2, type: 3}
+  maskSprite: {fileID: 6105377099455790497, guid: 09b8fee331719324eb562f6f03920867, type: 3}
   abilties:
   - {fileID: 11400000, guid: 9d3b050847cd3a34f8b23187c57f81ee, type: 2}
