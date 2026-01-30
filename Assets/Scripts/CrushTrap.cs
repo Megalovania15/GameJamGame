@@ -7,6 +7,9 @@ public class CrushTrap : MonoBehaviour
 {
     [SerializeField] private GameObject girder;
 
+    private Animator animator;
+    private SpriteRenderer spriteRenderer;
+
     [SerializeField] private float shakeOffsetY = 0.05f;
     [SerializeField] private float shakePeriod = 0.25f;
     [SerializeField] private float shakeCount = 3;
@@ -20,11 +23,14 @@ public class CrushTrap : MonoBehaviour
     private void Start()
     {
         initialPosition = girder.transform.localPosition;
+        animator = GetComponent<Animator>();
+        spriteRenderer = GetComponent<SpriteRenderer>();
     }
 
     private void OnTriggerEnter2D(Collider2D other)
     {
         StartCoroutine(Crush());
+        animator.SetBool("isCrushed", true);
     }
 
     private IEnumerator Crush()
