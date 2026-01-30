@@ -6,6 +6,10 @@ public class MaskEquip : MonoBehaviour
     [Header("References")]
     [SerializeField] MaskVisual maskVisual;
 
+    [Header("Audio")]
+    [SerializeField] AudioSource audioSource;
+    [SerializeField] AudioClip equipSound;
+
     MaskData currentMask;
     readonly List<Ability> equippedAbilities = new();
     readonly List<ActiveAbility> activeAbilities = new();
@@ -20,6 +24,12 @@ public class MaskEquip : MonoBehaviour
         currentMask = mask;
 
         maskVisual.SetMask(mask.maskSprite);
+
+        if (audioSource != null && equipSound != null)
+        {
+            audioSource.PlayOneShot(equipSound);
+        }
+
 
         foreach (var abilityDef in mask.abilties)
         {
