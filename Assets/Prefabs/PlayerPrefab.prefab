@@ -350,7 +350,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerInput: {fileID: 6463530498512954530}
   rb: {fileID: 7849759863148489610}
-  animator: {fileID: 0}
   moveSpeed: 5
 --- !u!50 &7849759863148489610
 Rigidbody2D:
