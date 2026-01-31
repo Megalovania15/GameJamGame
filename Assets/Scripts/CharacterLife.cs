@@ -1,4 +1,5 @@
 using System;
+using System.Collections;
 using Unity.Mathematics;
 using UnityEngine;
 using UnityEngine.Events;
@@ -20,6 +21,9 @@ public class CharacterLife : MonoBehaviour, IMortal
 
     [SerializeField]
     private UnityEvent OnDeath;
+
+    [SerializeField]
+    private float respawnTime = 3f;
 
     public Transform[] spawnPoints;
 
@@ -69,6 +73,12 @@ public class CharacterLife : MonoBehaviour, IMortal
         body.enabled = false;
         head.enabled = false;
         mask.enabled = false;
+        StartCoroutine(RespawnPlayer());
+    }
+
+    IEnumerator RespawnPlayer()
+    { 
+        yield return new WaitForSeconds(respawnTime);
         ResetPlayer();
     }
 
