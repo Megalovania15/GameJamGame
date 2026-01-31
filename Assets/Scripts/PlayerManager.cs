@@ -5,6 +5,7 @@ using System.Collections;
 using NUnit.Framework;
 using System.Collections.Generic;
 using Unity.Cinemachine;
+using UnityEngine.UI;
 
 public class PlayerManager : MonoBehaviour
 {
@@ -13,6 +14,19 @@ public class PlayerManager : MonoBehaviour
 
     public UnityEvent<GameObject> OnPlayerJoin;
 
+
+    public Transform[] spawnPoints;
+
+    public Image[] scorePanels; 
+
+    public static PlayerManager Instance;
+
+
+    private void Awake()
+    {
+        Instance = this;
+    }
+
     public void PlayerJoin(PlayerInput input)
     {
         input.gameObject.GetComponent<SplitScreenCamera>().index = totalPlayers;
@@ -20,6 +34,19 @@ public class PlayerManager : MonoBehaviour
         players.Add(input.gameObject);
 
         OnPlayerJoin.Invoke(input.gameObject);
+
+        input.gameObject.transform.position = spawnPoints[totalPlayers-1].position;
+
+        Color temp = new Color(
+            Random.value,
+            Random.value,
+            Random.value
+        );
+
+        input.gameObject.GetComponent<ColourManager>().SetColour(temp);
+
+        scorePanels[totalPlayers-1].color = temp;
+
 
         foreach (var player in players)
         {

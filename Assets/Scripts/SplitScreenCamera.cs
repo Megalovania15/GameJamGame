@@ -42,7 +42,7 @@ public class SplitScreenCamera : MonoBehaviour
             case 2:
                 baseRect = new Rect(
                     index == 0 ? 0f : 0.5f,
-                    index == 0 ? 0.1f : 0.4f,
+                    0.25f,
                     0.5f,
                     0.5f
                 );

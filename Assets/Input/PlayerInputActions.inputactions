@@ -68,6 +68,17 @@
                 },
                 {
                     "name": "",
+                    "id": "7e80498a-923c-4d2c-a2f5-ade87e22871a",
+                    "path": "<Keyboard>/numpad9",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Join",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
                     "id": "ea053161-e854-4171-b997-b5802adad394",
                     "path": "<Gamepad>/buttonSouth",
                     "interactions": "",

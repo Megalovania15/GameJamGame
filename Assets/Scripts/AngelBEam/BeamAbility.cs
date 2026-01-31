@@ -4,7 +4,7 @@ public class BeamAbility : ActiveAbility
 {
     [Header("Beam Settings")]
     public float distance = 3f;
-    public float duration = 3f;
+    public float duration = 2f;
     public float elapsedTime = 0f;
     public bool activated = false;
 
@@ -19,7 +19,7 @@ public class BeamAbility : ActiveAbility
                 return;
             }
 
-            Vector2[] directions =
+            /*Vector2[] directions =
             {
             Vector2.up, Vector2.right,
             new Vector2(1,1).normalized, new Vector2(-1,1).normalized};
@@ -27,7 +27,10 @@ public class BeamAbility : ActiveAbility
             foreach (var dir in directions)
             {
                 SpawnBeam(dir);
-            }
+            }*/
+
+            SpawnBeam(Vector2.up);
+
             activated = true;
         }
     }

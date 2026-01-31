@@ -6,7 +6,7 @@ public class LaserAbility : ActiveAbility
     public float duration = 2f;
     public int maxUses = 2;
 
-    private int usesRemaining;
+    public int usesRemaining;
     private float elapsedTime;
     private bool laserActive;
 
@@ -47,11 +47,14 @@ public class LaserAbility : ActiveAbility
             eyeSocket
         );
 
-        activeLaser.GetComponent<Laser>().SetOwner(gameObject);
+        Debug.Log(activeLaser);
 
+        //activeLaser.GetComponent<Laser>().SetOwner(gameObject);
+        Debug.Log("minus lasers!!");
+        usesRemaining--;
         laserActive = true;
         elapsedTime = 0f;
-        usesRemaining--;
+        
     }
 
     private void Update()
