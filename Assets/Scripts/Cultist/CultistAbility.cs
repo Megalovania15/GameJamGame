@@ -5,7 +5,7 @@ public class CultistAbility : ActiveAbility
 {
     public override void Activate()
     {
-        var colliders = Physics2D.OverlapCircleAll(transform.position, 5f);
+        var colliders = Physics2D.OverlapCircleAll(transform.position, 10f);
         foreach (var collider in colliders)
         {
             if (ReferenceEquals(collider.gameObject, owner))
