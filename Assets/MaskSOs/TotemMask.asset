@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e144b8d5b121ed648bff2ef130edc035, type: 3}
+  m_Name: TotemMask
+  m_EditorClassIdentifier: 
+  maskSprite: {fileID: 4969368236612299365, guid: a92dbae3c79146f4f996cd4e0f81e5ea, type: 3}
+  abilties:
+  - {fileID: 11400000, guid: a283f8bb9306b9948bf40710f956a9c8, type: 2}

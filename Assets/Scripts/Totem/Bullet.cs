@@ -1,0 +1,39 @@
+using UnityEngine;
+
+public class Bullet : MonoBehaviour
+{
+    public GameObject AbilityOwner { get; private set; }
+
+    [SerializeField]
+    private float speed = 2f;
+    [SerializeField]
+    private float lifetime = 1f;
+
+    private Rigidbody2D rb;
+
+    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    void Start()
+    {
+        rb = GetComponent<Rigidbody2D>();
+
+        rb.linearVelocity = speed * transform.right;
+
+        Destroy(gameObject, lifetime);
+    }
+
+    public void SetOwner(GameObject abilityOwner)
+    { 
+        AbilityOwner = abilityOwner;
+    }
+
+    void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.TryGetComponent<IMortal>(out IMortal mortal))
+        {
+            mortal.Die(DeathType.Default);
+            AbilityOwner?.GetComponent<PlayerScore>().IncreaseKills();
+        }
+
+        Destroy(gameObject);
+    }
+}
