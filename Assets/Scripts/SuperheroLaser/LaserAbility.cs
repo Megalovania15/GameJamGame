@@ -49,7 +49,7 @@ public class LaserAbility : ActiveAbility
 
         Debug.Log(activeLaser);
 
-        //activeLaser.GetComponent<Laser>().SetOwner(gameObject);
+        activeLaser.GetComponentInChildren<Laser>().SetOwner(gameObject);
         Debug.Log("minus lasers!!");
         usesRemaining--;
         laserActive = true;
