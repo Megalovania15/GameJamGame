@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7cd5b9984365cd04d9e82a3a79f02173, type: 3}
+  m_Name: Cultist
+  m_EditorClassIdentifier: 
+  maskData: {fileID: 11400000, guid: eca3d0dad9b9c2a4b8ea5134d760773b, type: 2}
+  maskPickupSprite: {fileID: 3495555920641203587, guid: f52b590e7a1e0f04293b938b3c72829c, type: 3}
