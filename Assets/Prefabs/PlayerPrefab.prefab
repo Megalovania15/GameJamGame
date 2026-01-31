@@ -44,8 +44,8 @@ Camera:
   m_GameObject: {fileID: 10751728749506457}
   m_Enabled: 1
   serializedVersion: 2
-  m_ClearFlags: 2
-  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 1}
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -63,9 +63,9 @@ Camera:
   m_NormalizedViewPortRect:
     serializedVersion: 2
     x: 0
-    y: 0.2543298
+    y: 0.125
     width: 1
-    height: 0.49134037
+    height: 0.75
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 60
@@ -280,13 +280,14 @@ GameObject:
   - component: {fileID: 8427651233164334203}
   - component: {fileID: 760415601680528134}
   - component: {fileID: 3533516000109397267}
+  - component: {fileID: 1161846606650637607}
   m_Layer: 0
   m_Name: PlayerPrefab
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &5225630180893824391
 Transform:
   m_ObjectHideFlags: 0
@@ -440,6 +441,22 @@ MonoBehaviour:
         m_CallState: 2
     m_ActionId: f4824fa2-0cd5-45b5-a7f6-789115c3a971
     m_ActionName: 'BasicActions/Attack[/XInputControllerWindows/buttonWest]'
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1161846606650637607}
+        m_TargetAssemblyTypeName: PauseMenuController, Assembly-CSharp
+        m_MethodName: TogglePausedMenu
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: 5a4b32c2-a59a-4e9f-b2a3-acb204c777a5
+    m_ActionName: 'BasicActions/Pause[/DualShock4GamepadHID/start]'
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
   m_DefaultActionMap: BasicActions
@@ -567,8 +584,8 @@ CapsuleCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0.074192464, y: 0.5721605}
-  m_Size: {x: 0.8359965, y: 2.1802692}
+  m_Offset: {x: 0.074192464, y: 0.9261522}
+  m_Size: {x: 0.8359965, y: 2.4934158}
   m_Direction: 0
 --- !u!114 &3192060399833815674
 MonoBehaviour:
@@ -665,6 +682,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  respawnTime: 3
   spawnPoints: []
 --- !u!114 &8427651233164334203
 MonoBehaviour:
@@ -710,6 +728,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   body: {fileID: 8753336739679985106}
   head: {fileID: 8072639445633467544}
+--- !u!114 &1161846606650637607
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1440369250227978478}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed21c9ded317371459551d1dc88e5624, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  characterDeathToggles: {fileID: 8427651233164334203}
 --- !u!1 &2533263600010438059
 GameObject:
   m_ObjectHideFlags: 0

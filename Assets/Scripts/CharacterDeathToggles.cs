@@ -8,8 +8,6 @@ public class CharacterDeathToggles : MonoBehaviour
     public SpriteRenderer headSprite;
     public SpriteRenderer maskSprite;
 
-    
-
     private Rigidbody2D rb;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -22,10 +20,10 @@ public class CharacterDeathToggles : MonoBehaviour
     }
 
     //disables the following components on the character when an event occurs
-    //need to unequip the mask when the player dies so they can't use it again
-    //ideally they should drop the mask if it still has uses left
     public void DisableCharacterComponents()
     {
+        Debug.Log("The character controls have been disabled");
+
         rb.simulated = false;
         characterController.enabled = false;
         characterCollider.enabled = false;

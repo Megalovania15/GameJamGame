@@ -3,6 +3,7 @@ using UnityEngine.SceneManagement;
 
 public class UIManager : MonoBehaviour
 {
+    
     public void LoadNextScene(string sceneName)
     { 
         SceneManager.LoadScene(sceneName);
@@ -12,4 +13,6 @@ public class UIManager : MonoBehaviour
     { 
         Application.Quit();
     }
+
+    
 }
