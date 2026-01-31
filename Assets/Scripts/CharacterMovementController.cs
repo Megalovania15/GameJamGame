@@ -54,11 +54,29 @@ public class CharacterMovementController : MonoBehaviour
                 this.transform.localScale = new Vector3(-1, 1, 1);
             }
         }
+        else
+        {
+            rb.linearVelocity = Vector2.zero;
+        }
     }
 
-    public void SetMove()
+    public void SetMoveFalse()
     {
-        canMove = !canMove;
+        canMove = false;
+    }
+
+    private void Update()
+    {
+        if (!canMove)
+        {
+            rb.linearVelocity = Vector2.zero;
+        }
+        animator.SetBool("isRunning", rb.linearVelocity.sqrMagnitude > 0.01f);
+    }
+
+    public void SetMoveTrue()
+    {
+        canMove = true;
     }
 
     Vector2 SnapTo8Directions(Vector2 input)

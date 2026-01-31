@@ -1,19 +1,19 @@
 fileFormatVersion: 2
-guid: 5dc75c4bea8146a4dbc89f13f31e46fe
+guid: 40052378f340c6841879983b75645422
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6943977520588222534
-    second: Simple Death_0
+      213: 1723950740924314024
+    second: Simple_Death_0
   - first:
-      213: 2689601746381513812
-    second: Simple Death_1
+      213: 1727937074315970607
+    second: Simple_Death_1
   - first:
-      213: 401991311265726263
-    second: Simple Death_2
+      213: 4740372649073957789
+    second: Simple_Death_2
   - first:
-      213: 4209292592506904168
-    second: Simple Death_3
+      213: 5047805785518861049
+    second: Simple_Death_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -105,24 +105,11 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Simple Death_0
+      name: Simple_Death_0
       rect:
         serializedVersion: 2
         x: 0
@@ -137,14 +124,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: abf8a0d5c3902af90800000000000000
-      internalID: -6943977520588222534
+      spriteID: 8a1b013a014bce710800000000000000
+      internalID: 1723950740924314024
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Simple Death_1
+      name: Simple_Death_1
       rect:
         serializedVersion: 2
         x: 854
@@ -159,14 +146,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4542758c982635520800000000000000
-      internalID: 2689601746381513812
+      spriteID: f28c4d43d9ddaf710800000000000000
+      internalID: 1727937074315970607
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Simple Death_2
+      name: Simple_Death_2
       rect:
         serializedVersion: 2
         x: 1708
@@ -181,14 +168,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 73f79ceb7f8249500800000000000000
-      internalID: 401991311265726263
+      spriteID: d9bd70b0fcf29c140800000000000000
+      internalID: 4740372649073957789
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Simple Death_3
+      name: Simple_Death_3
       rect:
         serializedVersion: 2
         x: 0
@@ -203,8 +190,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 86e9e04af496a6a30800000000000000
-      internalID: 4209292592506904168
+      spriteID: 9fa63051e986d0640800000000000000
+      internalID: 5047805785518861049
       vertices: []
       indices: 
       edges: []
@@ -213,7 +200,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 68b72ec34ab1e60429a6f975f62a500c
+    spriteID: 8fd1d8479d0d34e49b04326cde0df217
     internalID: 0
     vertices: []
     indices: 
@@ -223,10 +210,10 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Simple Death_0: -6943977520588222534
-      Simple Death_1: 2689601746381513812
-      Simple Death_2: 401991311265726263
-      Simple Death_3: 4209292592506904168
+      Simple_Death_0: 1723950740924314024
+      Simple_Death_1: 1727937074315970607
+      Simple_Death_2: 4740372649073957789
+      Simple_Death_3: 5047805785518861049
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

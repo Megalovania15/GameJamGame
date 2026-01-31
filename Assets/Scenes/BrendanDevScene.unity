@@ -556,6 +556,10 @@ PrefabInstance:
       propertyPath: m_NormalizedViewPortRect.height
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3192060399833815674, guid: bbb7f5e1cf5f2c84c93770af2d460ad4, type: 3}
+      propertyPath: anim
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 5225630180893824391, guid: bbb7f5e1cf5f2c84c93770af2d460ad4, type: 3}
       propertyPath: m_LocalScale.x
       value: 1

@@ -1,19 +1,34 @@
 fileFormatVersion: 2
-guid: 5dc75c4bea8146a4dbc89f13f31e46fe
+guid: 8c781faee8f57804c918af41822fcf5d
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6943977520588222534
-    second: Simple Death_0
+      213: -3700451958935720993
+    second: Trap_Splat_Death_0
   - first:
-      213: 2689601746381513812
-    second: Simple Death_1
+      213: -6694410904145654635
+    second: Trap_Splat_Death_1
   - first:
-      213: 401991311265726263
-    second: Simple Death_2
+      213: 843857126042335316
+    second: Trap_Splat_Death_2
   - first:
-      213: 4209292592506904168
-    second: Simple Death_3
+      213: -6914428682893673026
+    second: Trap_Splat_Death_3
+  - first:
+      213: 1275948447367596879
+    second: Trap_Splat_Death_4
+  - first:
+      213: -7476436232730080062
+    second: Trap_Splat_Death_5
+  - first:
+      213: -5454068265038722420
+    second: Trap_Splat_Death_6
+  - first:
+      213: 940668882858945560
+    second: Trap_Splat_Death_7
+  - first:
+      213: 9053593191608795626
+    second: Trap_Splat_Death_8
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -105,24 +120,11 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Simple Death_0
+      name: Trap_Splat_Death_0
       rect:
         serializedVersion: 2
         x: 0
@@ -137,14 +139,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: abf8a0d5c3902af90800000000000000
-      internalID: -6943977520588222534
+      spriteID: fdbec379c8a55acc0800000000000000
+      internalID: -3700451958935720993
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Simple Death_1
+      name: Trap_Splat_Death_1
       rect:
         serializedVersion: 2
         x: 854
@@ -159,14 +161,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4542758c982635520800000000000000
-      internalID: 2689601746381513812
+      spriteID: 59c85ed40cca813a0800000000000000
+      internalID: -6694410904145654635
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Simple Death_2
+      name: Trap_Splat_Death_2
       rect:
         serializedVersion: 2
         x: 1708
@@ -181,14 +183,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 73f79ceb7f8249500800000000000000
-      internalID: 401991311265726263
+      spriteID: 4587feec59bf5bb00800000000000000
+      internalID: 843857126042335316
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Simple Death_3
+      name: Trap_Splat_Death_3
       rect:
         serializedVersion: 2
         x: 0
@@ -203,8 +205,118 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 86e9e04af496a6a30800000000000000
-      internalID: 4209292592506904168
+      spriteID: ebdb9534fb30b00a0800000000000000
+      internalID: -6914428682893673026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trap_Splat_Death_4
+      rect:
+        serializedVersion: 2
+        x: 854
+        y: 480
+        width: 854
+        height: 480
+      alignment: 9
+      pivot: {x: 0.351, y: 0.4623}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4b8e054a5415b110800000000000000
+      internalID: 1275948447367596879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trap_Splat_Death_5
+      rect:
+        serializedVersion: 2
+        x: 1708
+        y: 480
+        width: 854
+        height: 480
+      alignment: 9
+      pivot: {x: 0.351, y: 0.4623}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cc8342bbdc5e3890800000000000000
+      internalID: -7476436232730080062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trap_Splat_Death_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 854
+        height: 480
+      alignment: 9
+      pivot: {x: 0.351, y: 0.4623}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8ac2a15fc14f44b0800000000000000
+      internalID: -5454068265038722420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trap_Splat_Death_7
+      rect:
+        serializedVersion: 2
+        x: 854
+        y: 0
+        width: 854
+        height: 480
+      alignment: 9
+      pivot: {x: 0.351, y: 0.4623}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81c22167d5ded0d00800000000000000
+      internalID: 940668882858945560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trap_Splat_Death_8
+      rect:
+        serializedVersion: 2
+        x: 1708
+        y: 0
+        width: 854
+        height: 480
+      alignment: 9
+      pivot: {x: 0.351, y: 0.4623}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae1ccbe2a03d4ad70800000000000000
+      internalID: 9053593191608795626
       vertices: []
       indices: 
       edges: []
@@ -213,7 +325,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 68b72ec34ab1e60429a6f975f62a500c
+    spriteID: cd7d9f850fb84034f9ab677556e01730
     internalID: 0
     vertices: []
     indices: 
@@ -223,10 +335,15 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Simple Death_0: -6943977520588222534
-      Simple Death_1: 2689601746381513812
-      Simple Death_2: 401991311265726263
-      Simple Death_3: 4209292592506904168
+      Trap_Splat_Death_0: -3700451958935720993
+      Trap_Splat_Death_1: -6694410904145654635
+      Trap_Splat_Death_2: 843857126042335316
+      Trap_Splat_Death_3: -6914428682893673026
+      Trap_Splat_Death_4: 1275948447367596879
+      Trap_Splat_Death_5: -7476436232730080062
+      Trap_Splat_Death_6: -5454068265038722420
+      Trap_Splat_Death_7: 940668882858945560
+      Trap_Splat_Death_8: 9053593191608795626
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
