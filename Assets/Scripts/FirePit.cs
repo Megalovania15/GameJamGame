@@ -1,61 +1,75 @@
 using System.Collections;
 using UnityEngine;
 using UnityEngine.Events;
+using UnityEngine.Serialization;
 
 [RequireComponent(typeof(BoxCollider2D))]
 public class FirePit : MonoBehaviour
 {
-    [SerializeField] private float onTime = 0.5f;
-    [SerializeField] private float offTime = 1f;
-    [SerializeField] private float beforeOnWarningTime = 0.3f;
-    [SerializeField] private bool startOn;
+    [FormerlySerializedAs("beforeOnWarningTime")] [SerializeField]
+    private float firingUpTime = 1f;
 
-    [SerializeField] private UnityEvent beforeOnEvent = new();
-    [SerializeField] private UnityEvent onEvent = new();
-    [SerializeField] private UnityEvent offEvent = new();
+    [FormerlySerializedAs("onTime")] [SerializeField]
+    private float firedUpTime = 3f;
+
+    [FormerlySerializedAs("offTime")] [SerializeField]
+    private float cooledDownTime = 5f;
+
+    [FormerlySerializedAs("startOn")] [SerializeField]
+    private bool startFiredUp;
+
+    [FormerlySerializedAs("onEvent")] [SerializeField]
+    private UnityEvent onFiredUp = new();
+
+    [FormerlySerializedAs("offEvent")] [SerializeField]
+    private UnityEvent onCooledDown = new();
+
+    [FormerlySerializedAs("beforeOnEvent")] [SerializeField]
+    private UnityEvent onFiringUp = new();
 
     private void Start()
     {
-        if (beforeOnWarningTime > offTime)
+        if (startFiredUp)
         {
-            Debug.LogWarning("beforeOnWarningTime > offTime. Script may misbehave...");
-        }
-
-        StartCoroutine(Loop());
-    }
-
-    IEnumerator Loop()
-    {
-        GetComponent<BoxCollider2D>().enabled = startOn;
-        // Too lazy for fixed split based on starting on or off:
-        if (startOn)
-        {
-            onEvent.Invoke();
+            StartCoroutine(FiredUpLoop());
         }
         else
         {
-            offEvent.Invoke();
+            StartCoroutine(CooledDownLoop());
         }
+    }
 
-        // FIXME: this is incorrect for first iteration...
-        yield return new WaitForSeconds(startOn ? onTime : offTime);
+    IEnumerator CooledDownLoop()
+    {
         for (;;)
         {
-            var col = GetComponent<BoxCollider2D>();
-            if (col.enabled)
-            {
-                col.enabled = false;
-                offEvent.Invoke();
-                yield return new WaitForSeconds(Mathf.Max(offTime - beforeOnWarningTime, 0f));
-                beforeOnEvent.Invoke();
-                yield return new WaitForSeconds(Mathf.Min(offTime, beforeOnWarningTime));
-            }
-            else
-            {
-                col.enabled = true;
-                onEvent.Invoke();
-                yield return new WaitForSeconds(onTime);
-            }
+            yield return CoolOff();
+            yield return FireUp();
         }
+    }
+
+    IEnumerator FiredUpLoop()
+    {
+        for (;;)
+        {
+            yield return FireUp();
+            yield return CoolOff();
+        }
+    }
+
+    IEnumerator FireUp()
+    {
+        onFiringUp.Invoke();
+        yield return new WaitForSeconds(firingUpTime);
+        GetComponent<BoxCollider2D>().enabled = true;
+        onFiredUp.Invoke();
+        yield return new WaitForSeconds(firedUpTime);
+    }
+
+    IEnumerator CoolOff()
+    {
+        GetComponent<BoxCollider2D>().enabled = false;
+        onCooledDown.Invoke();
+        yield return new WaitForSeconds(cooledDownTime);
     }
 }
