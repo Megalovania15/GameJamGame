@@ -275,14 +275,17 @@ GameObject:
   - component: {fileID: 1603041689059952319}
   - component: {fileID: 7207566341359818627}
   - component: {fileID: 3192060399833815674}
-  - component: {fileID: -1281904869827729778}
+  - component: {fileID: 300791755892710652}
+  - component: {fileID: 7426091484131922608}
+  - component: {fileID: 8427651233164334203}
+  - component: {fileID: 760415601680528134}
   m_Layer: 0
   m_Name: PlayerPrefab
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &5225630180893824391
 Transform:
   m_ObjectHideFlags: 0
@@ -513,7 +516,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maskVisual: {fileID: 1603041689059952319}
-  defaultHead: {fileID: 2108417133584344668, guid: d606c33c401e9b048953090fc77f01c4, type: 3}
+  audioSource: {fileID: 0}
+  equipSound: {fileID: 0}
+  defaultHead: {fileID: 2481540811161805960, guid: 3da6f918e9f22454f9c66c56f016b9a5, type: 3}
 --- !u!114 &1603041689059952319
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -577,8 +582,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maskEquip: {fileID: 9119582883511369160}
-  anim: {fileID: -1281904869827729778}
---- !u!95 &-1281904869827729778
+  anim: {fileID: 0}
+--- !u!95 &300791755892710652
 Animator:
   serializedVersion: 7
   m_ObjectHideFlags: 0
@@ -600,6 +605,86 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &7426091484131922608
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1440369250227978478}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ef120fe518d7e044bf340e372b6cd9e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  characterBody: {fileID: 2461070846929169603, guid: cf4a946d23f72624faa3959f82023243, type: 3}
+  bloodPuddle: {fileID: 4386905097631917106, guid: 54a00869786565a48832b5a04d53e76c, type: 3}
+  OnDeath:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 8427651233164334203}
+        m_TargetAssemblyTypeName: CharacterDeathToggles, Assembly-CSharp
+        m_MethodName: DisableCharacterComponents
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 760415601680528134}
+        m_TargetAssemblyTypeName: PlayerScore, Assembly-CSharp
+        m_MethodName: IncreaseDeaths
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 9119582883511369160}
+        m_TargetAssemblyTypeName: MaskEquip, Assembly-CSharp
+        m_MethodName: UnequipMask
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &8427651233164334203
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1440369250227978478}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7cd3cee995373cf4ebf9730cab65161a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &760415601680528134
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1440369250227978478}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c74e578cb12cbe149800cec064fb843a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  OnScoreChange:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &2533263600010438059
 GameObject:
   m_ObjectHideFlags: 0

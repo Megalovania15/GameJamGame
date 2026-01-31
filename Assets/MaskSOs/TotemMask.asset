@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e144b8d5b121ed648bff2ef130edc035, type: 3}
   m_Name: TotemMask
   m_EditorClassIdentifier: 
-  maskSprite: {fileID: 4969368236612299365, guid: a92dbae3c79146f4f996cd4e0f81e5ea, type: 3}
+  maskSprite: {fileID: -464344498758391414, guid: 071b2b4d5c3a114429adf65b331ed210, type: 3}
   abilties:
   - {fileID: 11400000, guid: a283f8bb9306b9948bf40710f956a9c8, type: 2}

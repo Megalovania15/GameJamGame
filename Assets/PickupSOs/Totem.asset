@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: Totem
   m_EditorClassIdentifier: 
   maskData: {fileID: 11400000, guid: f4516e8dfe7217d48b61f8d10e43b054, type: 2}
-  maskPickupSprite: {fileID: 4969368236612299365, guid: a92dbae3c79146f4f996cd4e0f81e5ea, type: 3}
+  maskPickupSprite: {fileID: -464344498758391414, guid: 071b2b4d5c3a114429adf65b331ed210, type: 3}

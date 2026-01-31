@@ -13,5 +13,8 @@ public class Ability : MonoBehaviour
        this.prefab = pref;
     }
 
-    public virtual void OnUnequip() { }
+    public virtual void OnUnequip() 
+    {
+        
+    }
 }

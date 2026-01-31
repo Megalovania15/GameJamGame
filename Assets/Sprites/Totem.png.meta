@@ -1,22 +1,10 @@
 fileFormatVersion: 2
-guid: 09b8fee331719324eb562f6f03920867
+guid: 071b2b4d5c3a114429adf65b331ed210
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6105377099455790497
-    second: Bib Angel Spritesheet_0
-  - first:
-      213: -8817370925707538710
-    second: Bib Angel Spritesheet_1
-  - first:
-      213: -832789023823648662
-    second: Bib Angel Spritesheet_2
-  - first:
-      213: 5569111970103075908
-    second: Bib Angel Spritesheet_3
-  - first:
-      213: -1783636070001672951
-    second: Bib Angel Spritesheet_4
+      213: -464344498758391414
+    second: Totem_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -138,13 +126,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Bib Angel Spritesheet_0
+      name: Totem_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 1674
-        width: 730
-        height: 696
+        x: 47
+        y: 160
+        width: 638
+        height: 541
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -153,96 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1adfdd0df18aab450800000000000000
-      internalID: 6105377099455790497
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Bib Angel Spritesheet_1
-      rect:
-        serializedVersion: 2
-        x: 799
-        y: 1674
-        width: 731
-        height: 696
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: aee48580cd762a580800000000000000
-      internalID: -8817370925707538710
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Bib Angel Spritesheet_2
-      rect:
-        serializedVersion: 2
-        x: 1599
-        y: 1674
-        width: 731
-        height: 696
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a68a52e8bc65174f0800000000000000
-      internalID: -832789023823648662
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Bib Angel Spritesheet_3
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 874
-        width: 730
-        height: 696
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 444ae5494d5794d40800000000000000
-      internalID: 5569111970103075908
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Bib Angel Spritesheet_4
-      rect:
-        serializedVersion: 2
-        x: 799
-        y: 874
-        width: 731
-        height: 696
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 90df9f6c1704f37e0800000000000000
-      internalID: -1783636070001672951
+      spriteID: a89691a73215e89f0800000000000000
+      internalID: -464344498758391414
       vertices: []
       indices: 
       edges: []
@@ -261,11 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Bib Angel Spritesheet_0: 6105377099455790497
-      Bib Angel Spritesheet_1: -8817370925707538710
-      Bib Angel Spritesheet_2: -832789023823648662
-      Bib Angel Spritesheet_3: 5569111970103075908
-      Bib Angel Spritesheet_4: -1783636070001672951
+      Totem_0: -464344498758391414
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

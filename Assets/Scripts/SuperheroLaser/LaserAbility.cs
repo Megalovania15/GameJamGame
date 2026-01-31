@@ -47,6 +47,8 @@ public class LaserAbility : ActiveAbility
             eyeSocket
         );
 
+        activeLaser.GetComponent<Laser>().SetOwner(gameObject);
+
         laserActive = true;
         elapsedTime = 0f;
         usesRemaining--;

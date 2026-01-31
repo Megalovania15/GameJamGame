@@ -57,5 +57,7 @@ public class BeamAbility : ActiveAbility
 
         float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
         beam.transform.rotation = Quaternion.Euler(0, 0, angle);
+
+        beam.GetComponent<Beam>().SetOwner(gameObject);
     }
 }
