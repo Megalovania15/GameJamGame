@@ -34,6 +34,11 @@ public class FirePitSprite : MonoBehaviour
         SwitchAnimationState(FirePitState.Cooldown);
     }
 
+    public void OnTurnedOff()
+    {
+        SwitchAnimationState(FirePitState.Off);
+    }
+
     public void SwitchAnimationState(FirePitState state)
     {
         switch (state)

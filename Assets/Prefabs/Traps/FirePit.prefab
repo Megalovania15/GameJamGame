@@ -79,7 +79,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_Sprite: {fileID: 4200561743984086031, guid: 3d24dd3a3a76c5c4fa7bbb0c8d4cde2b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -149,9 +149,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 062949426ed4f1547b95cb08ecf6147a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  firingUpTime: 1
+  firingUpTime: 3
   firedUpTime: 3
-  cooledDownTime: 5
+  cooledDownTime: 3
+  turnedOffTime: 3
   startFiredUp: 0
   onFiredUp:
     m_PersistentCalls:
@@ -174,6 +175,21 @@ MonoBehaviour:
       - m_Target: {fileID: 282378076403264976}
         m_TargetAssemblyTypeName: FirePitSprite, Assembly-CSharp
         m_MethodName: OnCooledDown
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  onTurnedOff:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 282378076403264976}
+        m_TargetAssemblyTypeName: FirePitSprite, Assembly-CSharp
+        m_MethodName: OnTurnedOff
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
