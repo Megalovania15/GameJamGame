@@ -24,7 +24,7 @@ public class CharacterMovementController : MonoBehaviour
 
     public void MoveInput(InputAction.CallbackContext context)
     {
-        Debug.Log("Move Input Detected");
+        //Debug.Log("Move Input Detected");
 
         if (context.performed || context.canceled)
         {
