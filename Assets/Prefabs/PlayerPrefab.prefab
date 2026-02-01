@@ -63,9 +63,9 @@ Camera:
   m_NormalizedViewPortRect:
     serializedVersion: 2
     x: 0
-    y: 0.125
+    y: 0
     width: 1
-    height: 0.75
+    height: 1
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 60
@@ -281,13 +281,13 @@ GameObject:
   - component: {fileID: 760415601680528134}
   - component: {fileID: 3533516000109397267}
   - component: {fileID: 1161846606650637607}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: PlayerPrefab
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &5225630180893824391
 Transform:
   m_ObjectHideFlags: 0
@@ -307,6 +307,7 @@ Transform:
   - {fileID: 6919593814184928409}
   - {fileID: 6534086753132881915}
   - {fileID: 5023583551616812911}
+  - {fileID: 1397661425017114611}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &8753336739679985106
@@ -457,6 +458,38 @@ MonoBehaviour:
         m_CallState: 2
     m_ActionId: 5a4b32c2-a59a-4e9f-b2a3-acb204c777a5
     m_ActionName: 'BasicActions/Pause[/DualShock4GamepadHID/start]'
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 3192060399833815674}
+        m_TargetAssemblyTypeName: CharacterController, Assembly-CSharp
+        m_MethodName: SteerAction
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: abf9b4a8-cd4a-4584-9dc2-810578b7f097
+    m_ActionName: 'BasicActions/Steering[/XInputControllerWindows/rightStick]'
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1719270154451821308}
+        m_TargetAssemblyTypeName: CharacterMovementController, Assembly-CSharp
+        m_MethodName: Sprint
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: 41edbedf-01b6-40f6-9e7d-c48f0a0b20e4
+    m_ActionName: 'BasicActions/Sprint[/XInputControllerWindows/rightShoulder]'
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
   m_DefaultActionMap: BasicActions
@@ -477,7 +510,9 @@ MonoBehaviour:
   playerInput: {fileID: 6463530498512954530}
   rb: {fileID: 7849759863148489610}
   moveSpeed: 5
+  sprintSpeed: 12
   canMove: 1
+  sprinting: 0
 --- !u!50 &7849759863148489610
 Rigidbody2D:
   serializedVersion: 5
@@ -486,7 +521,7 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1440369250227978478}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
@@ -584,8 +619,8 @@ CapsuleCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0.074192464, y: 0.9261522}
-  m_Size: {x: 0.8359965, y: 2.4934158}
+  m_Offset: {x: 0.074192464, y: 0.65625703}
+  m_Size: {x: 0.8359965, y: 1.9536254}
   m_Direction: 0
 --- !u!114 &3192060399833815674
 MonoBehaviour:
@@ -600,7 +635,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maskEquip: {fileID: 9119582883511369160}
-  anim: {fileID: 0}
+  anim: {fileID: 300791755892710652}
+  steerDirection: {x: 0, y: 0}
+  currentZ: 0
+  rotationSpeed: 90
+  minZ: -40
+  maxZ: 40
+  eyeSocket: {fileID: 6919593814184928409}
 --- !u!95 &300791755892710652
 Animator:
   serializedVersion: 7
@@ -1003,3 +1044,95 @@ Transform:
   m_Children: []
   m_Father: {fileID: 5225630180893824391}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &8356402678717732777
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1397661425017114611}
+  - component: {fileID: 7594311796945028922}
+  - component: {fileID: 2719211997611093033}
+  m_Layer: 0
+  m_Name: PunchBox
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &1397661425017114611
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8356402678717732777}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.169, y: 0.332, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5225630180893824391}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &7594311796945028922
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8356402678717732777}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: -0.25265187, y: 0.011842951}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 0.49469626, y: 0.802616}
+  m_EdgeRadius: 0
+--- !u!114 &2719211997611093033
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8356402678717732777}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 569705b53ff3ed1448a462b8edf2f304, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  knockbackForce: 5

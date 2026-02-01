@@ -12,7 +12,14 @@ public class CharacterMovementController : MonoBehaviour
 
     [SerializeField] private float moveSpeed;
 
+    [SerializeField] private float sprintSpeed;
+
     public bool canMove = true;
+
+    public bool sprinting = false;
+
+
+
 
     private void Awake()
     {
@@ -39,7 +46,19 @@ public class CharacterMovementController : MonoBehaviour
         {
             Vector2 direction = SnapTo8Directions(moveInput);
 
-            rb.linearVelocity = direction * moveSpeed;
+
+            float tempSpeed = moveSpeed;
+
+            if (sprinting)
+            {
+                tempSpeed = sprintSpeed;
+            }
+            else
+            {
+                tempSpeed = moveSpeed;
+            }
+
+                rb.linearVelocity = direction * tempSpeed;
 
             // Animator bool: true if moving, false if idle
             animator.SetBool("isRunning", rb.linearVelocity.sqrMagnitude > 0.01f);
@@ -73,6 +92,9 @@ public class CharacterMovementController : MonoBehaviour
             rb.linearVelocity = Vector2.zero;
         }
         animator.SetBool("isRunning", rb.linearVelocity.sqrMagnitude > 0.01f);
+
+       
+
     }
 
     public void SetMoveTrue()
@@ -91,4 +113,17 @@ public class CharacterMovementController : MonoBehaviour
         float rad = angle * Mathf.Deg2Rad;
         return new Vector2(Mathf.Cos(rad), Mathf.Sin(rad));
     }
+
+    public void Sprint(InputAction.CallbackContext context)
+    {
+        if (context.started)
+        {
+            sprinting = true;
+        }
+        else if (context.canceled)
+        {
+            sprinting = false;
+        }
+    }
+
 }
