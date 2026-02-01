@@ -12,6 +12,9 @@ EditorBuildSettings:
     path: Assets/Scenes/TitleScene.unity
     guid: 3e3bc88e33ceea24993e16c16eb98a91
   - enabled: 1
+    path: Assets/Scenes/Playtest.unity
+    guid: 6e078676b92539842941ec2c32eee4e8
+  - enabled: 0
     path: Assets/Scenes/DonataDevScene.unity
     guid: d0bcb449309a2bf4a896e91b70bdc25a
   - enabled: 1
