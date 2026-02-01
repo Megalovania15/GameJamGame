@@ -317,7 +317,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spriteRenderer: {fileID: 39712879}
   maskData: {fileID: 0}
-  _pickup: {fileID: 11400000, guid: 4ad0c4daf8e93f64aa7f566a159842ae, type: 2}
+  _pickup: {fileID: 0}
+  pickups:
+  - {fileID: 11400000, guid: 823e95d6f1ff4f14ba0be7fb2872554d, type: 2}
+  - {fileID: 11400000, guid: 91f77a9d9fe3c124ba8ff521565b2b56, type: 2}
+  - {fileID: 11400000, guid: 4ad0c4daf8e93f64aa7f566a159842ae, type: 2}
+  - {fileID: 11400000, guid: 8c1b25f13a886d447baadb6257c17ce8, type: 2}
+  respawns: 1
+  respawnTime: 5
+  defaultSprite: {fileID: -2413806693520163455, guid: 0e58c4498c52ab14bb522e52356998c1, type: 3}
 --- !u!212 &39712879
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -639,7 +647,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spriteRenderer: {fileID: 164977962}
   maskData: {fileID: 0}
-  _pickup: {fileID: 11400000, guid: 823e95d6f1ff4f14ba0be7fb2872554d, type: 2}
+  _pickup: {fileID: 0}
+  pickups:
+  - {fileID: 11400000, guid: 823e95d6f1ff4f14ba0be7fb2872554d, type: 2}
+  - {fileID: 11400000, guid: 91f77a9d9fe3c124ba8ff521565b2b56, type: 2}
+  - {fileID: 11400000, guid: 4ad0c4daf8e93f64aa7f566a159842ae, type: 2}
+  - {fileID: 11400000, guid: 8c1b25f13a886d447baadb6257c17ce8, type: 2}
+  respawns: 1
+  respawnTime: 5
+  defaultSprite: {fileID: -2413806693520163455, guid: 0e58c4498c52ab14bb522e52356998c1, type: 3}
 --- !u!212 &164977962
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1003,7 +1019,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spriteRenderer: {fileID: 226685930}
   maskData: {fileID: 0}
-  _pickup: {fileID: 11400000, guid: 4ad0c4daf8e93f64aa7f566a159842ae, type: 2}
+  _pickup: {fileID: 0}
+  pickups:
+  - {fileID: 11400000, guid: 823e95d6f1ff4f14ba0be7fb2872554d, type: 2}
+  - {fileID: 11400000, guid: 91f77a9d9fe3c124ba8ff521565b2b56, type: 2}
+  - {fileID: 11400000, guid: 4ad0c4daf8e93f64aa7f566a159842ae, type: 2}
+  - {fileID: 11400000, guid: 8c1b25f13a886d447baadb6257c17ce8, type: 2}
+  respawns: 1
+  respawnTime: 5
+  defaultSprite: {fileID: -2413806693520163455, guid: 0e58c4498c52ab14bb522e52356998c1, type: 3}
 --- !u!212 &226685930
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1143,7 +1167,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spriteRenderer: {fileID: 332564852}
   maskData: {fileID: 0}
-  _pickup: {fileID: 11400000, guid: 823e95d6f1ff4f14ba0be7fb2872554d, type: 2}
+  _pickup: {fileID: 0}
+  pickups:
+  - {fileID: 11400000, guid: 823e95d6f1ff4f14ba0be7fb2872554d, type: 2}
+  - {fileID: 11400000, guid: 91f77a9d9fe3c124ba8ff521565b2b56, type: 2}
+  - {fileID: 11400000, guid: 4ad0c4daf8e93f64aa7f566a159842ae, type: 2}
+  - {fileID: 11400000, guid: 8c1b25f13a886d447baadb6257c17ce8, type: 2}
+  respawns: 1
+  respawnTime: 5
+  defaultSprite: {fileID: -2413806693520163455, guid: 0e58c4498c52ab14bb522e52356998c1, type: 3}
 --- !u!212 &332564852
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1314,7 +1346,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spriteRenderer: {fileID: 347842971}
   maskData: {fileID: 0}
-  _pickup: {fileID: 11400000, guid: 823e95d6f1ff4f14ba0be7fb2872554d, type: 2}
+  _pickup: {fileID: 0}
+  pickups:
+  - {fileID: 11400000, guid: 823e95d6f1ff4f14ba0be7fb2872554d, type: 2}
+  - {fileID: 11400000, guid: 91f77a9d9fe3c124ba8ff521565b2b56, type: 2}
+  - {fileID: 11400000, guid: 4ad0c4daf8e93f64aa7f566a159842ae, type: 2}
+  - {fileID: 11400000, guid: 8c1b25f13a886d447baadb6257c17ce8, type: 2}
+  respawns: 1
+  respawnTime: 5
+  defaultSprite: {fileID: -2413806693520163455, guid: 0e58c4498c52ab14bb522e52356998c1, type: 3}
 --- !u!212 &347842971
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1636,7 +1676,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spriteRenderer: {fileID: 466416665}
   maskData: {fileID: 0}
-  _pickup: {fileID: 11400000, guid: 4ad0c4daf8e93f64aa7f566a159842ae, type: 2}
+  _pickup: {fileID: 0}
+  pickups:
+  - {fileID: 11400000, guid: 823e95d6f1ff4f14ba0be7fb2872554d, type: 2}
+  - {fileID: 11400000, guid: 91f77a9d9fe3c124ba8ff521565b2b56, type: 2}
+  - {fileID: 11400000, guid: 4ad0c4daf8e93f64aa7f566a159842ae, type: 2}
+  - {fileID: 11400000, guid: 8c1b25f13a886d447baadb6257c17ce8, type: 2}
+  respawns: 1
+  respawnTime: 5
+  defaultSprite: {fileID: -2413806693520163455, guid: 0e58c4498c52ab14bb522e52356998c1, type: 3}
 --- !u!212 &466416665
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1909,7 +1957,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spriteRenderer: {fileID: 522086749}
   maskData: {fileID: 0}
-  _pickup: {fileID: 11400000, guid: 91f77a9d9fe3c124ba8ff521565b2b56, type: 2}
+  _pickup: {fileID: 0}
+  pickups:
+  - {fileID: 11400000, guid: 823e95d6f1ff4f14ba0be7fb2872554d, type: 2}
+  - {fileID: 11400000, guid: 91f77a9d9fe3c124ba8ff521565b2b56, type: 2}
+  - {fileID: 11400000, guid: 4ad0c4daf8e93f64aa7f566a159842ae, type: 2}
+  - {fileID: 11400000, guid: 8c1b25f13a886d447baadb6257c17ce8, type: 2}
+  respawns: 1
+  respawnTime: 5
+  defaultSprite: {fileID: -2413806693520163455, guid: 0e58c4498c52ab14bb522e52356998c1, type: 3}
 --- !u!212 &522086749
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2231,7 +2287,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spriteRenderer: {fileID: 595471580}
   maskData: {fileID: 0}
-  _pickup: {fileID: 11400000, guid: 91f77a9d9fe3c124ba8ff521565b2b56, type: 2}
+  _pickup: {fileID: 0}
+  pickups:
+  - {fileID: 11400000, guid: 823e95d6f1ff4f14ba0be7fb2872554d, type: 2}
+  - {fileID: 11400000, guid: 91f77a9d9fe3c124ba8ff521565b2b56, type: 2}
+  - {fileID: 11400000, guid: 4ad0c4daf8e93f64aa7f566a159842ae, type: 2}
+  - {fileID: 11400000, guid: 8c1b25f13a886d447baadb6257c17ce8, type: 2}
+  respawns: 1
+  respawnTime: 5
+  defaultSprite: {fileID: -2413806693520163455, guid: 0e58c4498c52ab14bb522e52356998c1, type: 3}
 --- !u!212 &595471580
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2371,7 +2435,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spriteRenderer: {fileID: 648444073}
   maskData: {fileID: 0}
-  _pickup: {fileID: 11400000, guid: 8c1b25f13a886d447baadb6257c17ce8, type: 2}
+  _pickup: {fileID: 0}
+  pickups:
+  - {fileID: 11400000, guid: 823e95d6f1ff4f14ba0be7fb2872554d, type: 2}
+  - {fileID: 11400000, guid: 91f77a9d9fe3c124ba8ff521565b2b56, type: 2}
+  - {fileID: 11400000, guid: 4ad0c4daf8e93f64aa7f566a159842ae, type: 2}
+  - {fileID: 11400000, guid: 8c1b25f13a886d447baadb6257c17ce8, type: 2}
+  respawns: 1
+  respawnTime: 5
+  defaultSprite: {fileID: -2413806693520163455, guid: 0e58c4498c52ab14bb522e52356998c1, type: 3}
 --- !u!212 &648444073
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2886,7 +2958,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spriteRenderer: {fileID: 812687324}
   maskData: {fileID: 0}
-  _pickup: {fileID: 11400000, guid: 8c1b25f13a886d447baadb6257c17ce8, type: 2}
+  _pickup: {fileID: 0}
+  pickups:
+  - {fileID: 11400000, guid: 823e95d6f1ff4f14ba0be7fb2872554d, type: 2}
+  - {fileID: 11400000, guid: 91f77a9d9fe3c124ba8ff521565b2b56, type: 2}
+  - {fileID: 11400000, guid: 4ad0c4daf8e93f64aa7f566a159842ae, type: 2}
+  - {fileID: 11400000, guid: 8c1b25f13a886d447baadb6257c17ce8, type: 2}
+  respawns: 1
+  respawnTime: 5
+  defaultSprite: {fileID: -2413806693520163455, guid: 0e58c4498c52ab14bb522e52356998c1, type: 3}
 --- !u!212 &812687324
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3026,7 +3106,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spriteRenderer: {fileID: 877825735}
   maskData: {fileID: 0}
-  _pickup: {fileID: 11400000, guid: 91f77a9d9fe3c124ba8ff521565b2b56, type: 2}
+  _pickup: {fileID: 0}
+  pickups:
+  - {fileID: 11400000, guid: 823e95d6f1ff4f14ba0be7fb2872554d, type: 2}
+  - {fileID: 11400000, guid: 91f77a9d9fe3c124ba8ff521565b2b56, type: 2}
+  - {fileID: 11400000, guid: 4ad0c4daf8e93f64aa7f566a159842ae, type: 2}
+  - {fileID: 11400000, guid: 8c1b25f13a886d447baadb6257c17ce8, type: 2}
+  respawns: 1
+  respawnTime: 5
+  defaultSprite: {fileID: -2413806693520163455, guid: 0e58c4498c52ab14bb522e52356998c1, type: 3}
 --- !u!212 &877825735
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3166,7 +3254,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spriteRenderer: {fileID: 902201088}
   maskData: {fileID: 0}
-  _pickup: {fileID: 11400000, guid: 823e95d6f1ff4f14ba0be7fb2872554d, type: 2}
+  _pickup: {fileID: 0}
+  pickups:
+  - {fileID: 11400000, guid: 823e95d6f1ff4f14ba0be7fb2872554d, type: 2}
+  - {fileID: 11400000, guid: 91f77a9d9fe3c124ba8ff521565b2b56, type: 2}
+  - {fileID: 11400000, guid: 4ad0c4daf8e93f64aa7f566a159842ae, type: 2}
+  - {fileID: 11400000, guid: 8c1b25f13a886d447baadb6257c17ce8, type: 2}
+  respawns: 1
+  respawnTime: 5
+  defaultSprite: {fileID: -2413806693520163455, guid: 0e58c4498c52ab14bb522e52356998c1, type: 3}
 --- !u!212 &902201088
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3306,7 +3402,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spriteRenderer: {fileID: 949505547}
   maskData: {fileID: 0}
-  _pickup: {fileID: 11400000, guid: 8c1b25f13a886d447baadb6257c17ce8, type: 2}
+  _pickup: {fileID: 0}
+  pickups:
+  - {fileID: 11400000, guid: 823e95d6f1ff4f14ba0be7fb2872554d, type: 2}
+  - {fileID: 11400000, guid: 91f77a9d9fe3c124ba8ff521565b2b56, type: 2}
+  - {fileID: 11400000, guid: 4ad0c4daf8e93f64aa7f566a159842ae, type: 2}
+  - {fileID: 11400000, guid: 8c1b25f13a886d447baadb6257c17ce8, type: 2}
+  respawns: 1
+  respawnTime: 5
+  defaultSprite: {fileID: -2413806693520163455, guid: 0e58c4498c52ab14bb522e52356998c1, type: 3}
 --- !u!212 &949505547
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3628,7 +3732,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spriteRenderer: {fileID: 1000873274}
   maskData: {fileID: 0}
-  _pickup: {fileID: 11400000, guid: 4ad0c4daf8e93f64aa7f566a159842ae, type: 2}
+  _pickup: {fileID: 0}
+  pickups:
+  - {fileID: 11400000, guid: 823e95d6f1ff4f14ba0be7fb2872554d, type: 2}
+  - {fileID: 11400000, guid: 91f77a9d9fe3c124ba8ff521565b2b56, type: 2}
+  - {fileID: 11400000, guid: 4ad0c4daf8e93f64aa7f566a159842ae, type: 2}
+  - {fileID: 11400000, guid: 8c1b25f13a886d447baadb6257c17ce8, type: 2}
+  respawns: 1
+  respawnTime: 5
+  defaultSprite: {fileID: -2413806693520163455, guid: 0e58c4498c52ab14bb522e52356998c1, type: 3}
 --- !u!212 &1000873274
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3768,7 +3880,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spriteRenderer: {fileID: 1056990704}
   maskData: {fileID: 0}
-  _pickup: {fileID: 11400000, guid: 823e95d6f1ff4f14ba0be7fb2872554d, type: 2}
+  _pickup: {fileID: 0}
+  pickups:
+  - {fileID: 11400000, guid: 823e95d6f1ff4f14ba0be7fb2872554d, type: 2}
+  - {fileID: 11400000, guid: 91f77a9d9fe3c124ba8ff521565b2b56, type: 2}
+  - {fileID: 11400000, guid: 4ad0c4daf8e93f64aa7f566a159842ae, type: 2}
+  - {fileID: 11400000, guid: 8c1b25f13a886d447baadb6257c17ce8, type: 2}
+  respawns: 1
+  respawnTime: 5
+  defaultSprite: {fileID: -2413806693520163455, guid: 0e58c4498c52ab14bb522e52356998c1, type: 3}
 --- !u!212 &1056990704
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4235,7 +4355,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spriteRenderer: {fileID: 1102769223}
   maskData: {fileID: 0}
-  _pickup: {fileID: 11400000, guid: 4ad0c4daf8e93f64aa7f566a159842ae, type: 2}
+  _pickup: {fileID: 0}
+  pickups:
+  - {fileID: 11400000, guid: 823e95d6f1ff4f14ba0be7fb2872554d, type: 2}
+  - {fileID: 11400000, guid: 91f77a9d9fe3c124ba8ff521565b2b56, type: 2}
+  - {fileID: 11400000, guid: 4ad0c4daf8e93f64aa7f566a159842ae, type: 2}
+  - {fileID: 11400000, guid: 8c1b25f13a886d447baadb6257c17ce8, type: 2}
+  respawns: 1
+  respawnTime: 5
+  defaultSprite: {fileID: -2413806693520163455, guid: 0e58c4498c52ab14bb522e52356998c1, type: 3}
 --- !u!212 &1102769223
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4375,7 +4503,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spriteRenderer: {fileID: 1182912340}
   maskData: {fileID: 0}
-  _pickup: {fileID: 11400000, guid: 91f77a9d9fe3c124ba8ff521565b2b56, type: 2}
+  _pickup: {fileID: 0}
+  pickups:
+  - {fileID: 11400000, guid: 823e95d6f1ff4f14ba0be7fb2872554d, type: 2}
+  - {fileID: 11400000, guid: 91f77a9d9fe3c124ba8ff521565b2b56, type: 2}
+  - {fileID: 11400000, guid: 4ad0c4daf8e93f64aa7f566a159842ae, type: 2}
+  - {fileID: 11400000, guid: 8c1b25f13a886d447baadb6257c17ce8, type: 2}
+  respawns: 1
+  respawnTime: 5
+  defaultSprite: {fileID: -2413806693520163455, guid: 0e58c4498c52ab14bb522e52356998c1, type: 3}
 --- !u!212 &1182912340
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4795,7 +4931,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spriteRenderer: {fileID: 1335375981}
   maskData: {fileID: 0}
-  _pickup: {fileID: 11400000, guid: 823e95d6f1ff4f14ba0be7fb2872554d, type: 2}
+  _pickup: {fileID: 0}
+  pickups:
+  - {fileID: 11400000, guid: 823e95d6f1ff4f14ba0be7fb2872554d, type: 2}
+  - {fileID: 11400000, guid: 91f77a9d9fe3c124ba8ff521565b2b56, type: 2}
+  - {fileID: 11400000, guid: 4ad0c4daf8e93f64aa7f566a159842ae, type: 2}
+  - {fileID: 11400000, guid: 8c1b25f13a886d447baadb6257c17ce8, type: 2}
+  respawns: 1
+  respawnTime: 5
+  defaultSprite: {fileID: -2413806693520163455, guid: 0e58c4498c52ab14bb522e52356998c1, type: 3}
 --- !u!212 &1335375981
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5026,7 +5170,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spriteRenderer: {fileID: 1358343581}
   maskData: {fileID: 0}
-  _pickup: {fileID: 11400000, guid: 91f77a9d9fe3c124ba8ff521565b2b56, type: 2}
+  _pickup: {fileID: 0}
+  pickups:
+  - {fileID: 11400000, guid: 823e95d6f1ff4f14ba0be7fb2872554d, type: 2}
+  - {fileID: 11400000, guid: 91f77a9d9fe3c124ba8ff521565b2b56, type: 2}
+  - {fileID: 11400000, guid: 4ad0c4daf8e93f64aa7f566a159842ae, type: 2}
+  - {fileID: 11400000, guid: 8c1b25f13a886d447baadb6257c17ce8, type: 2}
+  respawns: 1
+  respawnTime: 5
+  defaultSprite: {fileID: -2413806693520163455, guid: 0e58c4498c52ab14bb522e52356998c1, type: 3}
 --- !u!212 &1358343581
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5166,7 +5318,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spriteRenderer: {fileID: 1364779787}
   maskData: {fileID: 0}
-  _pickup: {fileID: 11400000, guid: 8c1b25f13a886d447baadb6257c17ce8, type: 2}
+  _pickup: {fileID: 0}
+  pickups:
+  - {fileID: 11400000, guid: 823e95d6f1ff4f14ba0be7fb2872554d, type: 2}
+  - {fileID: 11400000, guid: 91f77a9d9fe3c124ba8ff521565b2b56, type: 2}
+  - {fileID: 11400000, guid: 4ad0c4daf8e93f64aa7f566a159842ae, type: 2}
+  - {fileID: 11400000, guid: 8c1b25f13a886d447baadb6257c17ce8, type: 2}
+  respawns: 1
+  respawnTime: 5
+  defaultSprite: {fileID: -2413806693520163455, guid: 0e58c4498c52ab14bb522e52356998c1, type: 3}
 --- !u!212 &1364779787
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5397,7 +5557,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spriteRenderer: {fileID: 1422708640}
   maskData: {fileID: 0}
-  _pickup: {fileID: 11400000, guid: 4ad0c4daf8e93f64aa7f566a159842ae, type: 2}
+  _pickup: {fileID: 0}
+  pickups:
+  - {fileID: 11400000, guid: 823e95d6f1ff4f14ba0be7fb2872554d, type: 2}
+  - {fileID: 11400000, guid: 91f77a9d9fe3c124ba8ff521565b2b56, type: 2}
+  - {fileID: 11400000, guid: 4ad0c4daf8e93f64aa7f566a159842ae, type: 2}
+  - {fileID: 11400000, guid: 8c1b25f13a886d447baadb6257c17ce8, type: 2}
+  respawns: 1
+  respawnTime: 5
+  defaultSprite: {fileID: -2413806693520163455, guid: 0e58c4498c52ab14bb522e52356998c1, type: 3}
 --- !u!212 &1422708640
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5537,7 +5705,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spriteRenderer: {fileID: 1453621424}
   maskData: {fileID: 0}
-  _pickup: {fileID: 11400000, guid: 91f77a9d9fe3c124ba8ff521565b2b56, type: 2}
+  _pickup: {fileID: 0}
+  pickups:
+  - {fileID: 11400000, guid: 823e95d6f1ff4f14ba0be7fb2872554d, type: 2}
+  - {fileID: 11400000, guid: 91f77a9d9fe3c124ba8ff521565b2b56, type: 2}
+  - {fileID: 11400000, guid: 4ad0c4daf8e93f64aa7f566a159842ae, type: 2}
+  - {fileID: 11400000, guid: 8c1b25f13a886d447baadb6257c17ce8, type: 2}
+  respawns: 1
+  respawnTime: 5
+  defaultSprite: {fileID: -2413806693520163455, guid: 0e58c4498c52ab14bb522e52356998c1, type: 3}
 --- !u!212 &1453621424
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5677,7 +5853,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spriteRenderer: {fileID: 1475169436}
   maskData: {fileID: 0}
-  _pickup: {fileID: 11400000, guid: 8c1b25f13a886d447baadb6257c17ce8, type: 2}
+  _pickup: {fileID: 0}
+  pickups:
+  - {fileID: 11400000, guid: 823e95d6f1ff4f14ba0be7fb2872554d, type: 2}
+  - {fileID: 11400000, guid: 91f77a9d9fe3c124ba8ff521565b2b56, type: 2}
+  - {fileID: 11400000, guid: 4ad0c4daf8e93f64aa7f566a159842ae, type: 2}
+  - {fileID: 11400000, guid: 8c1b25f13a886d447baadb6257c17ce8, type: 2}
+  respawns: 1
+  respawnTime: 5
+  defaultSprite: {fileID: -2413806693520163455, guid: 0e58c4498c52ab14bb522e52356998c1, type: 3}
 --- !u!212 &1475169436
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6066,7 +6250,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spriteRenderer: {fileID: 1618353293}
   maskData: {fileID: 0}
-  _pickup: {fileID: 11400000, guid: 4ad0c4daf8e93f64aa7f566a159842ae, type: 2}
+  _pickup: {fileID: 0}
+  pickups:
+  - {fileID: 11400000, guid: 823e95d6f1ff4f14ba0be7fb2872554d, type: 2}
+  - {fileID: 11400000, guid: 91f77a9d9fe3c124ba8ff521565b2b56, type: 2}
+  - {fileID: 11400000, guid: 4ad0c4daf8e93f64aa7f566a159842ae, type: 2}
+  - {fileID: 11400000, guid: 8c1b25f13a886d447baadb6257c17ce8, type: 2}
+  respawns: 1
+  respawnTime: 5
+  defaultSprite: {fileID: -2413806693520163455, guid: 0e58c4498c52ab14bb522e52356998c1, type: 3}
 --- !u!212 &1618353293
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6206,7 +6398,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spriteRenderer: {fileID: 1644944109}
   maskData: {fileID: 0}
-  _pickup: {fileID: 11400000, guid: 91f77a9d9fe3c124ba8ff521565b2b56, type: 2}
+  _pickup: {fileID: 0}
+  pickups:
+  - {fileID: 11400000, guid: 823e95d6f1ff4f14ba0be7fb2872554d, type: 2}
+  - {fileID: 11400000, guid: 91f77a9d9fe3c124ba8ff521565b2b56, type: 2}
+  - {fileID: 11400000, guid: 4ad0c4daf8e93f64aa7f566a159842ae, type: 2}
+  - {fileID: 11400000, guid: 8c1b25f13a886d447baadb6257c17ce8, type: 2}
+  respawns: 1
+  respawnTime: 5
+  defaultSprite: {fileID: -2413806693520163455, guid: 0e58c4498c52ab14bb522e52356998c1, type: 3}
 --- !u!212 &1644944109
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6721,7 +6921,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spriteRenderer: {fileID: 1866644686}
   maskData: {fileID: 0}
-  _pickup: {fileID: 11400000, guid: 823e95d6f1ff4f14ba0be7fb2872554d, type: 2}
+  _pickup: {fileID: 0}
+  pickups:
+  - {fileID: 11400000, guid: 823e95d6f1ff4f14ba0be7fb2872554d, type: 2}
+  - {fileID: 11400000, guid: 91f77a9d9fe3c124ba8ff521565b2b56, type: 2}
+  - {fileID: 11400000, guid: 4ad0c4daf8e93f64aa7f566a159842ae, type: 2}
+  - {fileID: 11400000, guid: 8c1b25f13a886d447baadb6257c17ce8, type: 2}
+  respawns: 1
+  respawnTime: 5
+  defaultSprite: {fileID: -2413806693520163455, guid: 0e58c4498c52ab14bb522e52356998c1, type: 3}
 --- !u!212 &1866644686
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6997,7 +7205,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spriteRenderer: {fileID: 1974301103}
   maskData: {fileID: 0}
-  _pickup: {fileID: 11400000, guid: 8c1b25f13a886d447baadb6257c17ce8, type: 2}
+  _pickup: {fileID: 0}
+  pickups:
+  - {fileID: 11400000, guid: 823e95d6f1ff4f14ba0be7fb2872554d, type: 2}
+  - {fileID: 11400000, guid: 91f77a9d9fe3c124ba8ff521565b2b56, type: 2}
+  - {fileID: 11400000, guid: 4ad0c4daf8e93f64aa7f566a159842ae, type: 2}
+  - {fileID: 11400000, guid: 8c1b25f13a886d447baadb6257c17ce8, type: 2}
+  respawns: 1
+  respawnTime: 5
+  defaultSprite: {fileID: -2413806693520163455, guid: 0e58c4498c52ab14bb522e52356998c1, type: 3}
 --- !u!212 &1974301103
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7137,7 +7353,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spriteRenderer: {fileID: 2016313258}
   maskData: {fileID: 0}
-  _pickup: {fileID: 11400000, guid: 8c1b25f13a886d447baadb6257c17ce8, type: 2}
+  _pickup: {fileID: 0}
+  pickups:
+  - {fileID: 11400000, guid: 823e95d6f1ff4f14ba0be7fb2872554d, type: 2}
+  - {fileID: 11400000, guid: 91f77a9d9fe3c124ba8ff521565b2b56, type: 2}
+  - {fileID: 11400000, guid: 4ad0c4daf8e93f64aa7f566a159842ae, type: 2}
+  - {fileID: 11400000, guid: 8c1b25f13a886d447baadb6257c17ce8, type: 2}
+  respawns: 1
+  respawnTime: 5
+  defaultSprite: {fileID: -2413806693520163455, guid: 0e58c4498c52ab14bb522e52356998c1, type: 3}
 --- !u!212 &2016313258
 SpriteRenderer:
   m_ObjectHideFlags: 0
