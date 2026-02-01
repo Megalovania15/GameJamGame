@@ -39,6 +39,15 @@ public class FirePit : MonoBehaviour
         }
     }
 
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.gameObject.TryGetComponent(out IMortal mortal))
+        {
+            Debug.Log("Killing player with fire.");
+            mortal.Die(DeathType.Default);
+        }
+    }
+
     IEnumerator CooledDownLoop()
     {
         for (;;)

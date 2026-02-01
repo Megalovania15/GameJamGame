@@ -90,7 +90,8 @@ public class CrushTrap : MonoBehaviour
             yield return null;
         }
 
-        foreach (var objectInDanger in objectsInDanger)
+        var tmp = new HashSet<GameObject>(objectsInDanger);
+        foreach (var objectInDanger in tmp)
         {
             objectInDanger.gameObject.GetComponent<IMortal>().Die(DeathType.Default);
             Debug.Log("Player was crushed.");

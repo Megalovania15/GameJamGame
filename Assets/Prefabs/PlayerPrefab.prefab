@@ -44,8 +44,8 @@ Camera:
   m_GameObject: {fileID: 10751728749506457}
   m_Enabled: 1
   serializedVersion: 2
-  m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_ClearFlags: 2
+  m_BackGroundColor: {r: 0.032744676, g: 0.033218153, b: 0.03396219, a: 0.9019608}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -63,9 +63,9 @@ Camera:
   m_NormalizedViewPortRect:
     serializedVersion: 2
     x: 0
-    y: 0.125
+    y: 0.3762136
     width: 1
-    height: 0.75
+    height: 0.24757281
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 60
@@ -280,7 +280,6 @@ GameObject:
   - component: {fileID: 8427651233164334203}
   - component: {fileID: 760415601680528134}
   - component: {fileID: 3533516000109397267}
-  - component: {fileID: 1161846606650637607}
   m_Layer: 6
   m_Name: PlayerPrefab
   m_TagString: Player
@@ -444,7 +443,7 @@ MonoBehaviour:
     m_ActionName: 'BasicActions/Attack[/XInputControllerWindows/buttonWest]'
   - m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1161846606650637607}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: PauseMenuController, Assembly-CSharp
         m_MethodName: TogglePausedMenu
         m_Mode: 0
@@ -770,19 +769,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   body: {fileID: 8753336739679985106}
   head: {fileID: 8072639445633467544}
---- !u!114 &1161846606650637607
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1440369250227978478}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ed21c9ded317371459551d1dc88e5624, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  characterDeathToggles: {fileID: 8427651233164334203}
 --- !u!1 &2533263600010438059
 GameObject:
   m_ObjectHideFlags: 0
