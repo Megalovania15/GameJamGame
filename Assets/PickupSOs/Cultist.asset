@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: Cultist
   m_EditorClassIdentifier: 
   maskData: {fileID: 11400000, guid: eca3d0dad9b9c2a4b8ea5134d760773b, type: 2}
-  maskPickupSprite: {fileID: 3495555920641203587, guid: f52b590e7a1e0f04293b938b3c72829c, type: 3}
+  maskPickupSprite: {fileID: 21300000, guid: ad923c54a8def394589bf3e7d2fb839b, type: 3}
