@@ -9,7 +9,7 @@ public class BeamAbility : ActiveAbility
     public bool activated = false;
 
 
-    public override void Activate()
+    public override void Activate(Vector2 direction)
     {
         if (!activated) 
         {

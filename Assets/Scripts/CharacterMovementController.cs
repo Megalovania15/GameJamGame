@@ -29,9 +29,15 @@ public class CharacterMovementController : MonoBehaviour
 
     private Vector2 moveInput;
 
+    public Vector2 LastValidInput
+    {
+        get;
+        private set;
+    }
+
     public void MoveInput(InputAction.CallbackContext context)
     {
-        Debug.Log("Move Input Detected");
+        // Debug.Log("Move Input Detected");
 
         if (context.performed || context.canceled)
         {
@@ -45,6 +51,8 @@ public class CharacterMovementController : MonoBehaviour
         if (canMove)
         {
             Vector2 direction = SnapTo8Directions(moveInput);
+            // Get the last reliable input from the controller, i.e. assume dead zone near at-rest stick:
+            LastValidInput = direction != Vector2.zero ? direction : LastValidInput;
 
 
             float tempSpeed = moveSpeed;
