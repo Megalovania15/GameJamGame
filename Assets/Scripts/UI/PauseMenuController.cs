@@ -30,12 +30,14 @@ public class PauseMenuController : MonoBehaviour
             if (isPaused)
             {
                 pauseMenu.SetActive(false);
-                characterDeathToggles.DisableCharacterComponents();
+                Time.timeScale = 0f;
+                //characterDeathToggles.DisableCharacterComponents();
             }
             else
             {
                 pauseMenu.SetActive(true);
-                characterDeathToggles.EnableCharacterComponents();
+                Time.timeScale = 1f;
+                //characterDeathToggles.EnableCharacterComponents();
             }
         }
     }

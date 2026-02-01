@@ -92,7 +92,8 @@ public class CrushTrap : MonoBehaviour
 
         foreach (var objectInDanger in objectsInDanger)
         {
-            objectInDanger.GetComponent<IMortal>().Die(DeathType.Crushed);
+            objectInDanger.gameObject.GetComponent<IMortal>().Die(DeathType.Default);
+            Debug.Log("Player was crushed.");
         }
     }
 
