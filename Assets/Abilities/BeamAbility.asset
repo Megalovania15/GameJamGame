@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c012a5aa8deeede47810c5cb22b94a72, type: 3}
   m_Name: BeamAbility
   m_EditorClassIdentifier: 
-  abilityScript: {fileID: 11500000, guid: bf00c84ecd3d95a4a9ea1a7fedb51de5, type: 3}
+  abilityClassname: BeamAbility
   prefab: {fileID: 3319077430654715799, guid: 5bef60ec33a9a054bb48abe859de8557, type: 3}

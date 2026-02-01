@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c012a5aa8deeede47810c5cb22b94a72, type: 3}
   m_Name: SuperheroLaser
   m_EditorClassIdentifier: 
-  abilityScript: {fileID: 11500000, guid: 3f3980ebd2a8a05478ff0fdf62f43a23, type: 3}
+  abilityClassname: LaserAbility
   prefab: {fileID: 4624254881351169463, guid: 99119142b16fe224798476b68ae327f8, type: 3}

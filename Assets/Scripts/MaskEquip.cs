@@ -33,18 +33,29 @@ public class MaskEquip : MonoBehaviour
 
         foreach (var abilityDef in mask.abilties)
         {
-            var abilityType = abilityDef.abilityScript.GetClass();
+            /*var abilityType = abilityDef.abilityScript.GetClass();
             if (!typeof(Ability).IsAssignableFrom(abilityType) ) 
             { continue; }
 
-            var ability = (Ability)gameObject.AddComponent(abilityType);
-            ability.OnEquip(gameObject, abilityDef.prefab);
-            equippedAbilities.Add(ability);
+            var ability = (Ability)gameObject.AddComponent(abilityType);*/
 
-            if (ability is ActiveAbility active)
+            var type = System.Type.GetType(abilityDef.abilityClassname);
+
+
+            if (type != null)
             {
-                activeAbilities.Add(active);
+                var ability = (Ability)gameObject.AddComponent(type);
+                ability.OnEquip(gameObject, abilityDef.prefab);
+                equippedAbilities.Add(ability);
+
+                if (ability is ActiveAbility active)
+                {
+                    activeAbilities.Add(active);
+                }
+
             }
+
+            
 
         }
 

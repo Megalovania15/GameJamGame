@@ -63,9 +63,9 @@ Camera:
   m_NormalizedViewPortRect:
     serializedVersion: 2
     x: 0
-    y: 0.125
+    y: 0.2543298
     width: 1
-    height: 0.75
+    height: 0.49134037
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 60
@@ -567,8 +567,8 @@ CapsuleCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0.074192464, y: 0.9261522}
-  m_Size: {x: 0.8359965, y: 2.4934158}
+  m_Offset: {x: 0.074192464, y: 0.5721605}
+  m_Size: {x: 0.8359965, y: 2.1802692}
   m_Direction: 0
 --- !u!114 &3192060399833815674
 MonoBehaviour:

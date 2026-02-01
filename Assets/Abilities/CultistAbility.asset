@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c012a5aa8deeede47810c5cb22b94a72, type: 3}
   m_Name: CultistAbility
   m_EditorClassIdentifier: 
-  abilityScript: {fileID: 11500000, guid: 2fe8fdc9a09eafc4a8f9b64d9b4153d6, type: 3}
+  abilityClassname: CultistAbility
   prefab: {fileID: 6818149279277224027, guid: f282252f27dcb8f44a7a84bbd8609574, type: 3}

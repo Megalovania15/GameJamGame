@@ -5,7 +5,8 @@ using UnityEngine;
 public class AbilityDefinition : ScriptableObject
 {
     [Tooltip("Ability component to add to the player")]
-    public MonoScript abilityScript;
+    //public MonoScript abilityScript;
+    public string abilityClassname;
 
     public GameObject prefab;
 }
