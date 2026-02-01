@@ -15,6 +15,8 @@ public class FirePit : MonoBehaviour
     [FormerlySerializedAs("offTime")] [SerializeField]
     private float cooledDownTime = 5f;
 
+    [SerializeField] private float turnedOffTime = 5f;
+
     [FormerlySerializedAs("startOn")] [SerializeField]
     private bool startFiredUp;
 
@@ -23,6 +25,8 @@ public class FirePit : MonoBehaviour
 
     [FormerlySerializedAs("offEvent")] [SerializeField]
     private UnityEvent onCooledDown = new();
+
+    [SerializeField] private UnityEvent onTurnedOff = new();
 
     [FormerlySerializedAs("beforeOnEvent")] [SerializeField]
     private UnityEvent onFiringUp = new();
@@ -80,5 +84,7 @@ public class FirePit : MonoBehaviour
         GetComponent<BoxCollider2D>().enabled = false;
         onCooledDown.Invoke();
         yield return new WaitForSeconds(cooledDownTime);
+        onTurnedOff.Invoke();
+        yield return new WaitForSeconds(turnedOffTime);
     }
 }

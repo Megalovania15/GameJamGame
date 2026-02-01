@@ -34,6 +34,7 @@ public class PickUpItem : MonoBehaviour
         var pickup = pickups[Random.Range(0, pickups.Count)];
         maskData = pickup.maskData;
         spriteRenderer.sprite = pickup.maskPickupSprite;
+        spriteRenderer.color = new Color(spriteRenderer.color.r, spriteRenderer.color.g, spriteRenderer.color.b, 1f);
     }
 
 
@@ -45,6 +46,7 @@ public class PickUpItem : MonoBehaviour
             maskEquip.EquipMask(maskData);
             maskData = null;
             spriteRenderer.sprite = defaultSprite;
+            spriteRenderer.color = new Color(spriteRenderer.color.r, spriteRenderer.color.g, spriteRenderer.color.b, 0.5f);
             StartCoroutine(Respawn());
             // Destroy(this.gameObject);
         }
