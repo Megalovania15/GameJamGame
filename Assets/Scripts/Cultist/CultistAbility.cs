@@ -3,7 +3,7 @@ using UnityEngine;
 
 public class CultistAbility : ActiveAbility
 {
-    public override void Activate()
+    public override void Activate(Vector2 direction)
     {
         var colliders = Physics2D.OverlapCircleAll(transform.position, 10f);
         foreach (var collider in colliders)

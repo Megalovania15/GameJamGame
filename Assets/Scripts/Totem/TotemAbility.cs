@@ -4,7 +4,7 @@ public class TotemAbility : ActiveAbility
 {
     public override int NumberOfUses { get; set; } = 2;
 
-    public override void Activate()
+    public override void Activate(Vector2 direction)
     {
         if (NumberOfUses > 0)
         {

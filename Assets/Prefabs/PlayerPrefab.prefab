@@ -601,6 +601,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maskEquip: {fileID: 9119582883511369160}
   anim: {fileID: 0}
+  movementController: {fileID: 0}
 --- !u!95 &300791755892710652
 Animator:
   serializedVersion: 7

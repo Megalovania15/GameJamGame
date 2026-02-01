@@ -79,13 +79,11 @@ public class MaskEquip : MonoBehaviour
 
     }
 
-    public void ActivateAbilities()
+    public void ActivateAbilities(Vector2 direction)
     {
         foreach (var ability in activeAbilities)
         {
-            ability.Activate();
+            ability.Activate(direction);
         }
     }
-
-
 }

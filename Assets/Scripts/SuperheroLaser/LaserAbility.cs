@@ -12,7 +12,7 @@ public class LaserAbility : ActiveAbility
 
     private GameObject activeLaser;
     private Transform eyeSocket;
-
+    
     void Start()
     {
         usesRemaining = maxUses;
@@ -26,7 +26,7 @@ public class LaserAbility : ActiveAbility
         }
     }
 
-    public override void Activate()
+    public override void Activate(Vector2 direction)
     {
         if (laserActive) return;
         if (usesRemaining <= 0) return;
@@ -38,12 +38,17 @@ public class LaserAbility : ActiveAbility
         }
 
         if (eyeSocket == null) return;
-
+        
+        // Get laser rotation, rounded to nearest 8-direction cardinal.
+        var laserAngle = Mathf.Atan2(direction.y, direction.x);
+        laserAngle = Mathf.Round(laserAngle / (Mathf.PI / 4)) * (Mathf.PI / 4); 
+        var laserRotation = Quaternion.Euler(0f, 0f, laserAngle * Mathf.Rad2Deg);
+        
         // Spawn laser at eye position
         activeLaser = Instantiate(
             prefab,
             eyeSocket.position,
-            eyeSocket.rotation,
+            laserRotation,
             eyeSocket
         );
 
@@ -62,13 +67,6 @@ public class LaserAbility : ActiveAbility
         if (!laserActive) return;
 
         elapsedTime += Time.deltaTime;
-
-        // Keep laser locked to eyes
-        if (activeLaser != null)
-        {
-            activeLaser.transform.position = eyeSocket.position;
-            activeLaser.transform.rotation = eyeSocket.rotation;
-        }
 
         if (elapsedTime >= duration)
         {
