@@ -1,0 +1,3029 @@
+fileFormatVersion: 2
+guid: 6a1357d803160884fa5deef3b4cc46ed
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7680855892555418177
+    second: Tentacle on Ground_Amended_0
+  - first:
+      213: -8549258085975124567
+    second: Tentacle on Ground_Amended_1
+  - first:
+      213: -4975003363952973664
+    second: Tentacle on Ground_Amended_2
+  - first:
+      213: 8341356379551067669
+    second: Tentacle on Ground_Amended_3
+  - first:
+      213: -6563688327937222065
+    second: Tentacle on Ground_Amended_4
+  - first:
+      213: 169902530282177964
+    second: Tentacle on Ground_Amended_5
+  - first:
+      213: 3128239769256804720
+    second: Tentacle on Ground_Amended_6
+  - first:
+      213: -8889774136174804511
+    second: Tentacle on Ground_Amended_7
+  - first:
+      213: -4351471076006967428
+    second: Tentacle on Ground_Amended_8
+  - first:
+      213: -7341388360375932242
+    second: Tentacle on Ground_Amended_9
+  - first:
+      213: 429103910766873505
+    second: Tentacle on Ground_Amended_10
+  - first:
+      213: -2090455997664228967
+    second: Tentacle on Ground_Amended_11
+  - first:
+      213: -4944058154260121494
+    second: Tentacle on Ground_Amended_12
+  - first:
+      213: 8406872625917033055
+    second: Tentacle on Ground_Amended_13
+  - first:
+      213: 6565909239484119323
+    second: Tentacle on Ground_Amended_14
+  - first:
+      213: 6304603775750239049
+    second: Tentacle on Ground_Amended_15
+  - first:
+      213: -2644512830986364405
+    second: Tentacle on Ground_Amended_16
+  - first:
+      213: -8415940192248492574
+    second: Tentacle on Ground_Amended_17
+  - first:
+      213: -6309057941831446402
+    second: Tentacle on Ground_Amended_18
+  - first:
+      213: -6648063498869207
+    second: Tentacle on Ground_Amended_19
+  - first:
+      213: -3100506284178389264
+    second: Tentacle on Ground_Amended_20
+  - first:
+      213: -1998902943944223468
+    second: Tentacle on Ground_Amended_21
+  - first:
+      213: 253282232111224988
+    second: Tentacle on Ground_Amended_22
+  - first:
+      213: 2226731468203676865
+    second: Tentacle on Ground_Amended_23
+  - first:
+      213: -6760598866335129023
+    second: Tentacle on Ground_Amended_24
+  - first:
+      213: 7145600488318167176
+    second: Tentacle on Ground_Amended_25
+  - first:
+      213: -2742476814121454911
+    second: Tentacle on Ground_Amended_26
+  - first:
+      213: -1470937748430936858
+    second: Tentacle on Ground_Amended_27
+  - first:
+      213: -1379966811973717740
+    second: Tentacle on Ground_Amended_28
+  - first:
+      213: 1926579670329203332
+    second: Tentacle on Ground_Amended_29
+  - first:
+      213: -225712135146529469
+    second: Tentacle on Ground_Amended_30
+  - first:
+      213: 955215949280862252
+    second: Tentacle on Ground_Amended_31
+  - first:
+      213: -7011840248964741454
+    second: Tentacle on Ground_Amended_32
+  - first:
+      213: 637256637546731172
+    second: Tentacle on Ground_Amended_33
+  - first:
+      213: -576070496459767330
+    second: Tentacle on Ground_Amended_34
+  - first:
+      213: -3588145799817156422
+    second: Tentacle on Ground_Amended_35
+  - first:
+      213: -9187454892435572988
+    second: Tentacle on Ground_Amended_36
+  - first:
+      213: 434236972643427690
+    second: Tentacle on Ground_Amended_37
+  - first:
+      213: 1402422833848803428
+    second: Tentacle on Ground_Amended_38
+  - first:
+      213: 1235021447967447303
+    second: Tentacle on Ground_Amended_39
+  - first:
+      213: 4430270485168504263
+    second: Tentacle on Ground_Amended_40
+  - first:
+      213: 5740571061963784610
+    second: Tentacle on Ground_Amended_41
+  - first:
+      213: 3976328790362763810
+    second: Tentacle on Ground_Amended_42
+  - first:
+      213: -8713317167437327264
+    second: Tentacle on Ground_Amended_43
+  - first:
+      213: 1835713079503256003
+    second: Tentacle on Ground_Amended_44
+  - first:
+      213: -7780696008797343343
+    second: Tentacle on Ground_Amended_45
+  - first:
+      213: -6705696806823711447
+    second: Tentacle on Ground_Amended_46
+  - first:
+      213: -1736130597217685251
+    second: Tentacle on Ground_Amended_47
+  - first:
+      213: 7072238163263130145
+    second: Tentacle on Ground_Amended_48
+  - first:
+      213: 8457604509356361420
+    second: Tentacle on Ground_Amended_49
+  - first:
+      213: 3910278621333385935
+    second: Tentacle on Ground_Amended_50
+  - first:
+      213: 1045610940544779944
+    second: Tentacle on Ground_Amended_51
+  - first:
+      213: -5434809688393713386
+    second: Tentacle on Ground_Amended_52
+  - first:
+      213: 2493600296086179148
+    second: Tentacle on Ground_Amended_53
+  - first:
+      213: 7561679938543399614
+    second: Tentacle on Ground_Amended_54
+  - first:
+      213: -8998860553186527246
+    second: Tentacle on Ground_Amended_55
+  - first:
+      213: 6545682666068907970
+    second: Tentacle on Ground_Amended_56
+  - first:
+      213: -8830994463857814290
+    second: Tentacle on Ground_Amended_57
+  - first:
+      213: 78601378064907128
+    second: Tentacle on Ground_Amended_58
+  - first:
+      213: -7436748018655576342
+    second: Tentacle on Ground_Amended_59
+  - first:
+      213: 8880048461729028907
+    second: Tentacle on Ground_Amended_60
+  - first:
+      213: 5393499745029852332
+    second: Tentacle on Ground_Amended_61
+  - first:
+      213: -1613728713299905289
+    second: Tentacle on Ground_Amended_62
+  - first:
+      213: 3161212469700306190
+    second: Tentacle on Ground_Amended_63
+  - first:
+      213: 8638871264811378388
+    second: Tentacle on Ground_Amended_64
+  - first:
+      213: 3498108647554085942
+    second: Tentacle on Ground_Amended_65
+  - first:
+      213: -6481679145935572854
+    second: Tentacle on Ground_Amended_66
+  - first:
+      213: -2740876543182058260
+    second: Tentacle on Ground_Amended_67
+  - first:
+      213: -40999132765696167
+    second: Tentacle on Ground_Amended_68
+  - first:
+      213: 2311291513042547595
+    second: Tentacle on Ground_Amended_69
+  - first:
+      213: -6298158975593070898
+    second: Tentacle on Ground_Amended_70
+  - first:
+      213: 6931662018479385810
+    second: Tentacle on Ground_Amended_71
+  - first:
+      213: -1663762692578171457
+    second: Tentacle on Ground_Amended_72
+  - first:
+      213: -5911629732532148748
+    second: Tentacle on Ground_Amended_73
+  - first:
+      213: -6831892326805946785
+    second: Tentacle on Ground_Amended_74
+  - first:
+      213: -6535502639785631828
+    second: Tentacle on Ground_Amended_75
+  - first:
+      213: 4848191977356037410
+    second: Tentacle on Ground_Amended_76
+  - first:
+      213: 7767048850927955871
+    second: Tentacle on Ground_Amended_77
+  - first:
+      213: 1528800653844468524
+    second: Tentacle on Ground_Amended_78
+  - first:
+      213: 5819129495839387915
+    second: Tentacle on Ground_Amended_79
+  - first:
+      213: 2348899505511670006
+    second: Tentacle on Ground_Amended_80
+  - first:
+      213: -4178283059742736436
+    second: Tentacle on Ground_Amended_81
+  - first:
+      213: 4191799165818526076
+    second: Tentacle on Ground_Amended_82
+  - first:
+      213: 1444538015565492662
+    second: Tentacle on Ground_Amended_83
+  - first:
+      213: -1697134874448412940
+    second: Tentacle on Ground_Amended_84
+  - first:
+      213: 5117803090194315930
+    second: Tentacle on Ground_Amended_85
+  - first:
+      213: 3667084576251316364
+    second: Tentacle on Ground_Amended_86
+  - first:
+      213: -5486875128660470157
+    second: Tentacle on Ground_Amended_87
+  - first:
+      213: -9094593078698495604
+    second: Tentacle on Ground_Amended_88
+  - first:
+      213: 2006799875442530678
+    second: Tentacle on Ground_Amended_89
+  - first:
+      213: -6658349866624555303
+    second: Tentacle on Ground_Amended_90
+  - first:
+      213: -5287994845206251144
+    second: Tentacle on Ground_Amended_91
+  - first:
+      213: 4230919431067447055
+    second: Tentacle on Ground_Amended_92
+  - first:
+      213: 7301161159441392406
+    second: Tentacle on Ground_Amended_93
+  - first:
+      213: 6757799379611680594
+    second: Tentacle on Ground_Amended_94
+  - first:
+      213: 3708060493974267293
+    second: Tentacle on Ground_Amended_95
+  - first:
+      213: 1745849125216176614
+    second: Tentacle on Ground_Amended_96
+  - first:
+      213: -2242832763820074920
+    second: Tentacle on Ground_Amended_97
+  - first:
+      213: 3952972127845361576
+    second: Tentacle on Ground_Amended_98
+  - first:
+      213: -5117315898890279919
+    second: Tentacle on Ground_Amended_99
+  - first:
+      213: 1495949809785676960
+    second: Tentacle on Ground_Amended_100
+  - first:
+      213: -301018367812512983
+    second: Tentacle on Ground_Amended_101
+  - first:
+      213: -3658597183701591157
+    second: Tentacle on Ground_Amended_102
+  - first:
+      213: 6345150126492475465
+    second: Tentacle on Ground_Amended_103
+  - first:
+      213: 1701497290864344908
+    second: Tentacle on Ground_Amended_104
+  - first:
+      213: -723204755756591275
+    second: Tentacle on Ground_Amended_105
+  - first:
+      213: -4388224010677178765
+    second: Tentacle on Ground_Amended_106
+  - first:
+      213: -2451276259589391253
+    second: Tentacle on Ground_Amended_107
+  - first:
+      213: 44135726532110580
+    second: Tentacle on Ground_Amended_108
+  - first:
+      213: -716298170421127560
+    second: Tentacle on Ground_Amended_109
+  - first:
+      213: -7252583460494730658
+    second: Tentacle on Ground_Amended_110
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 600
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Tentacle on Ground_Amended_0
+      rect:
+        serializedVersion: 2
+        x: 1485
+        y: 9862
+        width: 318
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14a4bb64db1e79a60800000000000000
+      internalID: 7680855892555418177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tentacle on Ground_Amended_1
+      rect:
+        serializedVersion: 2
+        x: 3137
+        y: 9862
+        width: 577
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a51154111fea5980800000000000000
+      internalID: -8549258085975124567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tentacle on Ground_Amended_2
+      rect:
+        serializedVersion: 2
+        x: 4717
+        y: 9862
+        width: 909
+        height: 723
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a8a5379ccc35fab0800000000000000
+      internalID: -4975003363952973664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tentacle on Ground_Amended_3
+      rect:
+        serializedVersion: 2
+        x: 6419
+        y: 9862
+        width: 1158
+        height: 727
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51e641cce6372c370800000000000000
+      internalID: 8341356379551067669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tentacle on Ground_Amended_4
+      rect:
+        serializedVersion: 2
+        x: 8076
+        y: 9862
+        width: 1421
+        height: 727
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4a9cecdd3819e4a0800000000000000
+      internalID: -6563688327937222065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tentacle on Ground_Amended_5
+      rect:
+        serializedVersion: 2
+        x: 9827
+        y: 9862
+        width: 1578
+        height: 732
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca5c8eb737d9b5200800000000000000
+      internalID: 169902530282177964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tentacle on Ground_Amended_6
+      rect:
+        serializedVersion: 2
+        x: 11747
+        y: 9862
+        width: 1578
+        height: 732
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0714dcafe7db96b20800000000000000
+      internalID: 3128239769256804720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tentacle on Ground_Amended_7
+      rect:
+        serializedVersion: 2
+        x: 13667
+        y: 9862
+        width: 1578
+        height: 732
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e188dfe58d21a480800000000000000
+      internalID: -8889774136174804511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tentacle on Ground_Amended_8
+      rect:
+        serializedVersion: 2
+        x: 15587
+        y: 9862
+        width: 1578
+        height: 732
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c77c7388c187c93c0800000000000000
+      internalID: -4351471076006967428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tentacle on Ground_Amended_9
+      rect:
+        serializedVersion: 2
+        x: 17507
+        y: 9862
+        width: 1627
+        height: 732
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eaaea9dbe262e1a90800000000000000
+      internalID: -7341388360375932242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tentacle on Ground_Amended_10
+      rect:
+        serializedVersion: 2
+        x: 19427
+        y: 9862
+        width: 1578
+        height: 732
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ab8dfcbbbb74f500800000000000000
+      internalID: 429103910766873505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tentacle on Ground_Amended_11
+      rect:
+        serializedVersion: 2
+        x: 21347
+        y: 9862
+        width: 1578
+        height: 732
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99983a888553df2e0800000000000000
+      internalID: -2090455997664228967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tentacle on Ground_Amended_12
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 8782
+        width: 1578
+        height: 732
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a68b37ead4d236bb0800000000000000
+      internalID: -4944058154260121494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tentacle on Ground_Amended_13
+      rect:
+        serializedVersion: 2
+        x: 2147
+        y: 8782
+        width: 1578
+        height: 732
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5a7dbb9c163ba470800000000000000
+      internalID: 8406872625917033055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tentacle on Ground_Amended_14
+      rect:
+        serializedVersion: 2
+        x: 4067
+        y: 8782
+        width: 1578
+        height: 732
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b19f7e66aabce1b50800000000000000
+      internalID: 6565909239484119323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tentacle on Ground_Amended_15
+      rect:
+        serializedVersion: 2
+        x: 5987
+        y: 8782
+        width: 1578
+        height: 732
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 943fd271bb37e7750800000000000000
+      internalID: 6304603775750239049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tentacle on Ground_Amended_16
+      rect:
+        serializedVersion: 2
+        x: 7907
+        y: 8782
+        width: 1578
+        height: 732
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0a5819679dcc4bd0800000000000000
+      internalID: -2644512830986364405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tentacle on Ground_Amended_17
+      rect:
+        serializedVersion: 2
+        x: 9827
+        y: 8782
+        width: 1578
+        height: 761
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ed88161cf2943b80800000000000000
+      internalID: -8415940192248492574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tentacle on Ground_Amended_18
+      rect:
+        serializedVersion: 2
+        x: 11747
+        y: 8782
+        width: 1578
+        height: 811
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7097cd8a39b178a0800000000000000
+      internalID: -6309057941831446402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tentacle on Ground_Amended_19
+      rect:
+        serializedVersion: 2
+        x: 13667
+        y: 8782
+        width: 1578
+        height: 859
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 926a4b81f9168eff0800000000000000
+      internalID: -6648063498869207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tentacle on Ground_Amended_20
+      rect:
+        serializedVersion: 2
+        x: 15587
+        y: 8782
+        width: 1578
+        height: 806
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f64ea336f9c8f4d0800000000000000
+      internalID: -3100506284178389264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tentacle on Ground_Amended_21
+      rect:
+        serializedVersion: 2
+        x: 17507
+        y: 8782
+        width: 1578
+        height: 751
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 415d8b5fc587244e0800000000000000
+      internalID: -1998902943944223468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tentacle on Ground_Amended_22
+      rect:
+        serializedVersion: 2
+        x: 19427
+        y: 8782
+        width: 1578
+        height: 732
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9858e029d6d38300800000000000000
+      internalID: 253282232111224988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tentacle on Ground_Amended_23
+      rect:
+        serializedVersion: 2
+        x: 21347
+        y: 8782
+        width: 1578
+        height: 732
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c4d67cf870f6ee10800000000000000
+      internalID: 2226731468203676865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tentacle on Ground_Amended_24
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 7702
+        width: 1578
+        height: 732
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 142af2776278d22a0800000000000000
+      internalID: -6760598866335129023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tentacle on Ground_Amended_25
+      rect:
+        serializedVersion: 2
+        x: 2147
+        y: 7702
+        width: 1578
+        height: 732
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 888ef0df8c54a2360800000000000000
+      internalID: 7145600488318167176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tentacle on Ground_Amended_26
+      rect:
+        serializedVersion: 2
+        x: 4067
+        y: 7702
+        width: 1578
+        height: 732
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c2bb892ed3c0f9d0800000000000000
+      internalID: -2742476814121454911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tentacle on Ground_Amended_27
+      rect:
+        serializedVersion: 2
+        x: 5987
+        y: 7702
+        width: 1578
+        height: 732
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e4af0249ed269be0800000000000000
+      internalID: -1470937748430936858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tentacle on Ground_Amended_28
+      rect:
+        serializedVersion: 2
+        x: 7907
+        y: 7702
+        width: 1578
+        height: 732
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4117a72fe7f59dce0800000000000000
+      internalID: -1379966811973717740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tentacle on Ground_Amended_29
+      rect:
+        serializedVersion: 2
+        x: 9827
+        y: 7702
+        width: 1578
+        height: 732
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48a1671b0069cba10800000000000000
+      internalID: 1926579670329203332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tentacle on Ground_Amended_30
+      rect:
+        serializedVersion: 2
+        x: 11747
+        y: 7702
+        width: 1578
+        height: 732
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34d981b420c1edcf0800000000000000
+      internalID: -225712135146529469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tentacle on Ground_Amended_31
+      rect:
+        serializedVersion: 2
+        x: 13650
+        y: 7702
+        width: 1644
+        height: 732
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c206cac48db914d00800000000000000
+      internalID: 955215949280862252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tentacle on Ground_Amended_32
+      rect:
+        serializedVersion: 2
+        x: 15566
+        y: 7702
+        width: 1599
+        height: 732
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b68ba2a170f0be90800000000000000
+      internalID: -7011840248964741454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tentacle on Ground_Amended_33
+      rect:
+        serializedVersion: 2
+        x: 17507
+        y: 7702
+        width: 1578
+        height: 732
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a69bb7198df7d800800000000000000
+      internalID: 637256637546731172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tentacle on Ground_Amended_34
+      rect:
+        serializedVersion: 2
+        x: 19427
+        y: 7702
+        width: 1578
+        height: 732
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed1cee48fe26108f0800000000000000
+      internalID: -576070496459767330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tentacle on Ground_Amended_35
+      rect:
+        serializedVersion: 2
+        x: 21347
+        y: 7702
+        width: 1578
+        height: 732
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab8a697e768543ec0800000000000000
+      internalID: -3588145799817156422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tentacle on Ground_Amended_36
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 6622
+        width: 1578
+        height: 732
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 407f37ad37a9f7080800000000000000
+      internalID: -9187454892435572988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tentacle on Ground_Amended_37
+      rect:
+        serializedVersion: 2
+        x: 2147
+        y: 6622
+        width: 1578
+        height: 732
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a65a0c6d938b60600800000000000000
+      internalID: 434236972643427690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tentacle on Ground_Amended_38
+      rect:
+        serializedVersion: 2
+        x: 4067
+        y: 6622
+        width: 1578
+        height: 732
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46064741328667310800000000000000
+      internalID: 1402422833848803428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tentacle on Ground_Amended_39
+      rect:
+        serializedVersion: 2
+        x: 5987
+        y: 6622
+        width: 1578
+        height: 761
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7099618a67da32110800000000000000
+      internalID: 1235021447967447303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tentacle on Ground_Amended_40
+      rect:
+        serializedVersion: 2
+        x: 7907
+        y: 6622
+        width: 1578
+        height: 811
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cdbd5f988b7b7d30800000000000000
+      internalID: 4430270485168504263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tentacle on Ground_Amended_41
+      rect:
+        serializedVersion: 2
+        x: 9827
+        y: 6622
+        width: 1627
+        height: 859
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a10d3c47fa9aaf40800000000000000
+      internalID: 5740571061963784610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tentacle on Ground_Amended_42
+      rect:
+        serializedVersion: 2
+        x: 11747
+        y: 6622
+        width: 1578
+        height: 806
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2223bb3a7f1ce2730800000000000000
+      internalID: 3976328790362763810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tentacle on Ground_Amended_43
+      rect:
+        serializedVersion: 2
+        x: 13667
+        y: 6622
+        width: 1578
+        height: 751
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 064d59b8334141780800000000000000
+      internalID: -8713317167437327264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tentacle on Ground_Amended_44
+      rect:
+        serializedVersion: 2
+        x: 15587
+        y: 6622
+        width: 1578
+        height: 732
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c9745dd153c97910800000000000000
+      internalID: 1835713079503256003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tentacle on Ground_Amended_45
+      rect:
+        serializedVersion: 2
+        x: 17507
+        y: 6622
+        width: 1578
+        height: 732
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 191b552343a650490800000000000000
+      internalID: -7780696008797343343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tentacle on Ground_Amended_46
+      rect:
+        serializedVersion: 2
+        x: 19427
+        y: 6622
+        width: 1578
+        height: 732
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92d2dc1584490f2a0800000000000000
+      internalID: -6705696806823711447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tentacle on Ground_Amended_47
+      rect:
+        serializedVersion: 2
+        x: 21347
+        y: 6622
+        width: 1578
+        height: 732
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df037259b6608e7e0800000000000000
+      internalID: -1736130597217685251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tentacle on Ground_Amended_48
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 5542
+        width: 1578
+        height: 732
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12a8240a323a52260800000000000000
+      internalID: 7072238163263130145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tentacle on Ground_Amended_49
+      rect:
+        serializedVersion: 2
+        x: 2147
+        y: 5542
+        width: 1578
+        height: 761
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc68deead727f5570800000000000000
+      internalID: 8457604509356361420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tentacle on Ground_Amended_50
+      rect:
+        serializedVersion: 2
+        x: 4067
+        y: 5542
+        width: 1578
+        height: 811
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc2716540b9144630800000000000000
+      internalID: 3910278621333385935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tentacle on Ground_Amended_51
+      rect:
+        serializedVersion: 2
+        x: 5987
+        y: 5542
+        width: 1578
+        height: 859
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a60f6c4c91c28e00800000000000000
+      internalID: 1045610940544779944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tentacle on Ground_Amended_52
+      rect:
+        serializedVersion: 2
+        x: 7900
+        y: 5542
+        width: 1585
+        height: 806
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 619f07d126da394b0800000000000000
+      internalID: -5434809688393713386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tentacle on Ground_Amended_53
+      rect:
+        serializedVersion: 2
+        x: 9779
+        y: 5542
+        width: 1626
+        height: 751
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4d8604f14c0b9220800000000000000
+      internalID: 2493600296086179148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tentacle on Ground_Amended_54
+      rect:
+        serializedVersion: 2
+        x: 11747
+        y: 5542
+        width: 1578
+        height: 732
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb2b31237db70f860800000000000000
+      internalID: 7561679938543399614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tentacle on Ground_Amended_55
+      rect:
+        serializedVersion: 2
+        x: 13667
+        y: 5542
+        width: 1578
+        height: 732
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f7ba004100ad1380800000000000000
+      internalID: -8998860553186527246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tentacle on Ground_Amended_56
+      rect:
+        serializedVersion: 2
+        x: 15587
+        y: 5542
+        width: 1627
+        height: 732
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c7187b44bfe6da50800000000000000
+      internalID: 6545682666068907970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tentacle on Ground_Amended_57
+      rect:
+        serializedVersion: 2
+        x: 17507
+        y: 5542
+        width: 1578
+        height: 732
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee45050e251027580800000000000000
+      internalID: -8830994463857814290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tentacle on Ground_Amended_58
+      rect:
+        serializedVersion: 2
+        x: 19427
+        y: 5542
+        width: 1578
+        height: 732
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87b3a62798f371100800000000000000
+      internalID: 78601378064907128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tentacle on Ground_Amended_59
+      rect:
+        serializedVersion: 2
+        x: 21347
+        y: 5542
+        width: 1578
+        height: 732
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aeeb1ff141d5bc890800000000000000
+      internalID: -7436748018655576342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tentacle on Ground_Amended_60
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 4462
+        width: 1578
+        height: 732
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2bdc9507054c3b70800000000000000
+      internalID: 8880048461729028907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tentacle on Ground_Amended_61
+      rect:
+        serializedVersion: 2
+        x: 2147
+        y: 4462
+        width: 1578
+        height: 732
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cac0aae217f89da40800000000000000
+      internalID: 5393499745029852332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tentacle on Ground_Amended_62
+      rect:
+        serializedVersion: 2
+        x: 4060
+        y: 4462
+        width: 1585
+        height: 732
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f439eff842ea99e0800000000000000
+      internalID: -1613728713299905289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tentacle on Ground_Amended_63
+      rect:
+        serializedVersion: 2
+        x: 5939
+        y: 4462
+        width: 1626
+        height: 732
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e05a50c0ef1eedb20800000000000000
+      internalID: 3161212469700306190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tentacle on Ground_Amended_64
+      rect:
+        serializedVersion: 2
+        x: 7907
+        y: 4462
+        width: 1578
+        height: 761
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d6696705af63e770800000000000000
+      internalID: 8638871264811378388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tentacle on Ground_Amended_65
+      rect:
+        serializedVersion: 2
+        x: 9827
+        y: 4462
+        width: 1627
+        height: 811
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 634fe2bf747cb8030800000000000000
+      internalID: 3498108647554085942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tentacle on Ground_Amended_66
+      rect:
+        serializedVersion: 2
+        x: 11747
+        y: 4462
+        width: 1578
+        height: 859
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a80f37e78237c06a0800000000000000
+      internalID: -6481679145935572854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tentacle on Ground_Amended_67
+      rect:
+        serializedVersion: 2
+        x: 13667
+        y: 4462
+        width: 1578
+        height: 806
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cecce664e4376f9d0800000000000000
+      internalID: -2740876543182058260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tentacle on Ground_Amended_68
+      rect:
+        serializedVersion: 2
+        x: 15587
+        y: 4462
+        width: 1578
+        height: 751
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95fc66781875e6ff0800000000000000
+      internalID: -40999132765696167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tentacle on Ground_Amended_69
+      rect:
+        serializedVersion: 2
+        x: 17507
+        y: 4462
+        width: 1578
+        height: 732
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b83b647a26b531020800000000000000
+      internalID: 2311291513042547595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tentacle on Ground_Amended_70
+      rect:
+        serializedVersion: 2
+        x: 19427
+        y: 4462
+        width: 1578
+        height: 732
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ece36d0e7c17898a0800000000000000
+      internalID: -6298158975593070898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tentacle on Ground_Amended_71
+      rect:
+        serializedVersion: 2
+        x: 21347
+        y: 4462
+        width: 1578
+        height: 732
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2dce78a51e5323060800000000000000
+      internalID: 6931662018479385810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tentacle on Ground_Amended_72
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 3382
+        width: 1578
+        height: 732
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb5a45665a029e8e0800000000000000
+      internalID: -1663762692578171457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tentacle on Ground_Amended_73
+      rect:
+        serializedVersion: 2
+        x: 2147
+        y: 3382
+        width: 1578
+        height: 761
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f5a8c4541ca5fda0800000000000000
+      internalID: -5911629732532148748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tentacle on Ground_Amended_74
+      rect:
+        serializedVersion: 2
+        x: 4067
+        y: 3382
+        width: 1578
+        height: 811
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5eb30d202e3031a0800000000000000
+      internalID: -6831892326805946785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tentacle on Ground_Amended_75
+      rect:
+        serializedVersion: 2
+        x: 5987
+        y: 3382
+        width: 1578
+        height: 859
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: caf13f6c9fa3d45a0800000000000000
+      internalID: -6535502639785631828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tentacle on Ground_Amended_76
+      rect:
+        serializedVersion: 2
+        x: 7907
+        y: 3382
+        width: 1578
+        height: 806
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22d8435aaec384340800000000000000
+      internalID: 4848191977356037410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tentacle on Ground_Amended_77
+      rect:
+        serializedVersion: 2
+        x: 9820
+        y: 3382
+        width: 1585
+        height: 751
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9faaa047c91acb60800000000000000
+      internalID: 7767048850927955871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tentacle on Ground_Amended_78
+      rect:
+        serializedVersion: 2
+        x: 11699
+        y: 3382
+        width: 1626
+        height: 732
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c23d8c04814673510800000000000000
+      internalID: 1528800653844468524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tentacle on Ground_Amended_79
+      rect:
+        serializedVersion: 2
+        x: 13667
+        y: 3382
+        width: 1578
+        height: 732
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0131850273b1c050800000000000000
+      internalID: 5819129495839387915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tentacle on Ground_Amended_80
+      rect:
+        serializedVersion: 2
+        x: 15587
+        y: 3382
+        width: 1578
+        height: 732
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f02d1fb7a7f89020800000000000000
+      internalID: 2348899505511670006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tentacle on Ground_Amended_81
+      rect:
+        serializedVersion: 2
+        x: 17507
+        y: 3382
+        width: 1578
+        height: 732
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccf7005d1b1c306c0800000000000000
+      internalID: -4178283059742736436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tentacle on Ground_Amended_82
+      rect:
+        serializedVersion: 2
+        x: 19427
+        y: 3382
+        width: 1578
+        height: 732
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c795468d1234c2a30800000000000000
+      internalID: 4191799165818526076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tentacle on Ground_Amended_83
+      rect:
+        serializedVersion: 2
+        x: 21347
+        y: 3382
+        width: 1578
+        height: 732
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b13452fba70c0410800000000000000
+      internalID: 1444538015565492662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tentacle on Ground_Amended_84
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 2302
+        width: 1578
+        height: 732
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fe3390d2d09278e0800000000000000
+      internalID: -1697134874448412940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tentacle on Ground_Amended_85
+      rect:
+        serializedVersion: 2
+        x: 2147
+        y: 2302
+        width: 1578
+        height: 732
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9abd659bc6160740800000000000000
+      internalID: 5117803090194315930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tentacle on Ground_Amended_86
+      rect:
+        serializedVersion: 2
+        x: 4060
+        y: 2302
+        width: 1585
+        height: 732
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8806c83ef914e230800000000000000
+      internalID: 3667084576251316364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tentacle on Ground_Amended_87
+      rect:
+        serializedVersion: 2
+        x: 5939
+        y: 2302
+        width: 1626
+        height: 732
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37654452424bad3b0800000000000000
+      internalID: -5486875128660470157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tentacle on Ground_Amended_88
+      rect:
+        serializedVersion: 2
+        x: 7907
+        y: 2302
+        width: 1627
+        height: 732
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c813377b7c389c180800000000000000
+      internalID: -9094593078698495604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tentacle on Ground_Amended_89
+      rect:
+        serializedVersion: 2
+        x: 9827
+        y: 2302
+        width: 1578
+        height: 732
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 679dc0faad599db10800000000000000
+      internalID: 2006799875442530678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tentacle on Ground_Amended_90
+      rect:
+        serializedVersion: 2
+        x: 11747
+        y: 2302
+        width: 1578
+        height: 732
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d6e291e21ac893a0800000000000000
+      internalID: -6658349866624555303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tentacle on Ground_Amended_91
+      rect:
+        serializedVersion: 2
+        x: 13667
+        y: 2302
+        width: 1578
+        height: 732
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 879726d84b44d96b0800000000000000
+      internalID: -5287994845206251144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tentacle on Ground_Amended_92
+      rect:
+        serializedVersion: 2
+        x: 15587
+        y: 2302
+        width: 1578
+        height: 732
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0fa2126ece37ba30800000000000000
+      internalID: 4230919431067447055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tentacle on Ground_Amended_93
+      rect:
+        serializedVersion: 2
+        x: 17507
+        y: 2302
+        width: 1578
+        height: 732
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 613226c246fe25560800000000000000
+      internalID: 7301161159441392406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tentacle on Ground_Amended_94
+      rect:
+        serializedVersion: 2
+        x: 19427
+        y: 2302
+        width: 1578
+        height: 732
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25ffb1d3bb688cd50800000000000000
+      internalID: 6757799379611680594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tentacle on Ground_Amended_95
+      rect:
+        serializedVersion: 2
+        x: 21347
+        y: 2302
+        width: 1578
+        height: 732
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d95eef48f5da57330800000000000000
+      internalID: 3708060493974267293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tentacle on Ground_Amended_96
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 1222
+        width: 1578
+        height: 761
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e9cfeb87808a3810800000000000000
+      internalID: 1745849125216176614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tentacle on Ground_Amended_97
+      rect:
+        serializedVersion: 2
+        x: 2147
+        y: 1222
+        width: 1578
+        height: 811
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85895edfb7bdfd0e0800000000000000
+      internalID: -2242832763820074920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tentacle on Ground_Amended_98
+      rect:
+        serializedVersion: 2
+        x: 4067
+        y: 1222
+        width: 1578
+        height: 859
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a72e3fd437cbd630800000000000000
+      internalID: 3952972127845361576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tentacle on Ground_Amended_99
+      rect:
+        serializedVersion: 2
+        x: 5987
+        y: 1222
+        width: 1578
+        height: 806
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 114af2b7d44abf8b0800000000000000
+      internalID: -5117315898890279919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tentacle on Ground_Amended_100
+      rect:
+        serializedVersion: 2
+        x: 7907
+        y: 1222
+        width: 1578
+        height: 751
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a4a6161d6ea2c410800000000000000
+      internalID: 1495949809785676960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tentacle on Ground_Amended_101
+      rect:
+        serializedVersion: 2
+        x: 9827
+        y: 1222
+        width: 1578
+        height: 732
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 923daaba36192dbf0800000000000000
+      internalID: -301018367812512983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tentacle on Ground_Amended_102
+      rect:
+        serializedVersion: 2
+        x: 11747
+        y: 1222
+        width: 1578
+        height: 732
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8bd839de3d0a3dc0800000000000000
+      internalID: -3658597183701591157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tentacle on Ground_Amended_103
+      rect:
+        serializedVersion: 2
+        x: 13667
+        y: 1222
+        width: 1578
+        height: 732
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 940eb180c608e0850800000000000000
+      internalID: 6345150126492475465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tentacle on Ground_Amended_104
+      rect:
+        serializedVersion: 2
+        x: 15587
+        y: 1222
+        width: 1578
+        height: 732
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4f324865ceec9710800000000000000
+      internalID: 1701497290864344908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tentacle on Ground_Amended_105
+      rect:
+        serializedVersion: 2
+        x: 17580
+        y: 1222
+        width: 1422
+        height: 625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55751493b19a6f5f0800000000000000
+      internalID: -723204755756591275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tentacle on Ground_Amended_106
+      rect:
+        serializedVersion: 2
+        x: 19544
+        y: 1222
+        width: 1295
+        height: 518
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37e2fb81385e913c0800000000000000
+      internalID: -4388224010677178765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tentacle on Ground_Amended_107
+      rect:
+        serializedVersion: 2
+        x: 21566
+        y: 1222
+        width: 1111
+        height: 411
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6c73d4ba315bfdd0800000000000000
+      internalID: -2451276259589391253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tentacle on Ground_Amended_108
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 142
+        width: 953
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f8a9dd953dcc9000800000000000000
+      internalID: 44135726532110580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tentacle on Ground_Amended_109
+      rect:
+        serializedVersion: 2
+        x: 2532
+        y: 142
+        width: 766
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87659ceeb923f06f0800000000000000
+      internalID: -716298170421127560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tentacle on Ground_Amended_110
+      rect:
+        serializedVersion: 2
+        x: 4576
+        y: 142
+        width: 514
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5a965db4c5a95b90800000000000000
+      internalID: -7252583460494730658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Tentacle on Ground_Amended_0: 7680855892555418177
+      Tentacle on Ground_Amended_1: -8549258085975124567
+      Tentacle on Ground_Amended_10: 429103910766873505
+      Tentacle on Ground_Amended_100: 1495949809785676960
+      Tentacle on Ground_Amended_101: -301018367812512983
+      Tentacle on Ground_Amended_102: -3658597183701591157
+      Tentacle on Ground_Amended_103: 6345150126492475465
+      Tentacle on Ground_Amended_104: 1701497290864344908
+      Tentacle on Ground_Amended_105: -723204755756591275
+      Tentacle on Ground_Amended_106: -4388224010677178765
+      Tentacle on Ground_Amended_107: -2451276259589391253
+      Tentacle on Ground_Amended_108: 44135726532110580
+      Tentacle on Ground_Amended_109: -716298170421127560
+      Tentacle on Ground_Amended_11: -2090455997664228967
+      Tentacle on Ground_Amended_110: -7252583460494730658
+      Tentacle on Ground_Amended_12: -4944058154260121494
+      Tentacle on Ground_Amended_13: 8406872625917033055
+      Tentacle on Ground_Amended_14: 6565909239484119323
+      Tentacle on Ground_Amended_15: 6304603775750239049
+      Tentacle on Ground_Amended_16: -2644512830986364405
+      Tentacle on Ground_Amended_17: -8415940192248492574
+      Tentacle on Ground_Amended_18: -6309057941831446402
+      Tentacle on Ground_Amended_19: -6648063498869207
+      Tentacle on Ground_Amended_2: -4975003363952973664
+      Tentacle on Ground_Amended_20: -3100506284178389264
+      Tentacle on Ground_Amended_21: -1998902943944223468
+      Tentacle on Ground_Amended_22: 253282232111224988
+      Tentacle on Ground_Amended_23: 2226731468203676865
+      Tentacle on Ground_Amended_24: -6760598866335129023
+      Tentacle on Ground_Amended_25: 7145600488318167176
+      Tentacle on Ground_Amended_26: -2742476814121454911
+      Tentacle on Ground_Amended_27: -1470937748430936858
+      Tentacle on Ground_Amended_28: -1379966811973717740
+      Tentacle on Ground_Amended_29: 1926579670329203332
+      Tentacle on Ground_Amended_3: 8341356379551067669
+      Tentacle on Ground_Amended_30: -225712135146529469
+      Tentacle on Ground_Amended_31: 955215949280862252
+      Tentacle on Ground_Amended_32: -7011840248964741454
+      Tentacle on Ground_Amended_33: 637256637546731172
+      Tentacle on Ground_Amended_34: -576070496459767330
+      Tentacle on Ground_Amended_35: -3588145799817156422
+      Tentacle on Ground_Amended_36: -9187454892435572988
+      Tentacle on Ground_Amended_37: 434236972643427690
+      Tentacle on Ground_Amended_38: 1402422833848803428
+      Tentacle on Ground_Amended_39: 1235021447967447303
+      Tentacle on Ground_Amended_4: -6563688327937222065
+      Tentacle on Ground_Amended_40: 4430270485168504263
+      Tentacle on Ground_Amended_41: 5740571061963784610
+      Tentacle on Ground_Amended_42: 3976328790362763810
+      Tentacle on Ground_Amended_43: -8713317167437327264
+      Tentacle on Ground_Amended_44: 1835713079503256003
+      Tentacle on Ground_Amended_45: -7780696008797343343
+      Tentacle on Ground_Amended_46: -6705696806823711447
+      Tentacle on Ground_Amended_47: -1736130597217685251
+      Tentacle on Ground_Amended_48: 7072238163263130145
+      Tentacle on Ground_Amended_49: 8457604509356361420
+      Tentacle on Ground_Amended_5: 169902530282177964
+      Tentacle on Ground_Amended_50: 3910278621333385935
+      Tentacle on Ground_Amended_51: 1045610940544779944
+      Tentacle on Ground_Amended_52: -5434809688393713386
+      Tentacle on Ground_Amended_53: 2493600296086179148
+      Tentacle on Ground_Amended_54: 7561679938543399614
+      Tentacle on Ground_Amended_55: -8998860553186527246
+      Tentacle on Ground_Amended_56: 6545682666068907970
+      Tentacle on Ground_Amended_57: -8830994463857814290
+      Tentacle on Ground_Amended_58: 78601378064907128
+      Tentacle on Ground_Amended_59: -7436748018655576342
+      Tentacle on Ground_Amended_6: 3128239769256804720
+      Tentacle on Ground_Amended_60: 8880048461729028907
+      Tentacle on Ground_Amended_61: 5393499745029852332
+      Tentacle on Ground_Amended_62: -1613728713299905289
+      Tentacle on Ground_Amended_63: 3161212469700306190
+      Tentacle on Ground_Amended_64: 8638871264811378388
+      Tentacle on Ground_Amended_65: 3498108647554085942
+      Tentacle on Ground_Amended_66: -6481679145935572854
+      Tentacle on Ground_Amended_67: -2740876543182058260
+      Tentacle on Ground_Amended_68: -40999132765696167
+      Tentacle on Ground_Amended_69: 2311291513042547595
+      Tentacle on Ground_Amended_7: -8889774136174804511
+      Tentacle on Ground_Amended_70: -6298158975593070898
+      Tentacle on Ground_Amended_71: 6931662018479385810
+      Tentacle on Ground_Amended_72: -1663762692578171457
+      Tentacle on Ground_Amended_73: -5911629732532148748
+      Tentacle on Ground_Amended_74: -6831892326805946785
+      Tentacle on Ground_Amended_75: -6535502639785631828
+      Tentacle on Ground_Amended_76: 4848191977356037410
+      Tentacle on Ground_Amended_77: 7767048850927955871
+      Tentacle on Ground_Amended_78: 1528800653844468524
+      Tentacle on Ground_Amended_79: 5819129495839387915
+      Tentacle on Ground_Amended_8: -4351471076006967428
+      Tentacle on Ground_Amended_80: 2348899505511670006
+      Tentacle on Ground_Amended_81: -4178283059742736436
+      Tentacle on Ground_Amended_82: 4191799165818526076
+      Tentacle on Ground_Amended_83: 1444538015565492662
+      Tentacle on Ground_Amended_84: -1697134874448412940
+      Tentacle on Ground_Amended_85: 5117803090194315930
+      Tentacle on Ground_Amended_86: 3667084576251316364
+      Tentacle on Ground_Amended_87: -5486875128660470157
+      Tentacle on Ground_Amended_88: -9094593078698495604
+      Tentacle on Ground_Amended_89: 2006799875442530678
+      Tentacle on Ground_Amended_9: -7341388360375932242
+      Tentacle on Ground_Amended_90: -6658349866624555303
+      Tentacle on Ground_Amended_91: -5287994845206251144
+      Tentacle on Ground_Amended_92: 4230919431067447055
+      Tentacle on Ground_Amended_93: 7301161159441392406
+      Tentacle on Ground_Amended_94: 6757799379611680594
+      Tentacle on Ground_Amended_95: 3708060493974267293
+      Tentacle on Ground_Amended_96: 1745849125216176614
+      Tentacle on Ground_Amended_97: -2242832763820074920
+      Tentacle on Ground_Amended_98: 3952972127845361576
+      Tentacle on Ground_Amended_99: -5117315898890279919
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

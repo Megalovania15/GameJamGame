@@ -1,0 +1,484 @@
+fileFormatVersion: 2
+guid: 1e57a0e7084f779499350753e66aa315
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7398920801281936818
+    second: Player Grabbed_0
+  - first:
+      213: -5741415455888383050
+    second: Player Grabbed_1
+  - first:
+      213: -8140342210590666349
+    second: Player Grabbed_2
+  - first:
+      213: 5101483482102364627
+    second: Player Grabbed_3
+  - first:
+      213: -8733580438900339111
+    second: Player Grabbed_4
+  - first:
+      213: 2151462244481595879
+    second: Player Grabbed_5
+  - first:
+      213: 5567691640969383247
+    second: Player Grabbed_6
+  - first:
+      213: -7904273054089544065
+    second: Player Grabbed_7
+  - first:
+      213: -7930165478697435918
+    second: Player Grabbed_8
+  - first:
+      213: -8259383413718580375
+    second: Player Grabbed_9
+  - first:
+      213: 6870676673448145146
+    second: Player Grabbed_10
+  - first:
+      213: -5727862366075519295
+    second: Player Grabbed_11
+  - first:
+      213: 3048983106889437825
+    second: Player Grabbed_12
+  - first:
+      213: 3547926052388328035
+    second: Player Grabbed_13
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 400
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Player Grabbed_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 10530
+        width: 3944
+        height: 3510
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bd88a1844f3ea660800000000000000
+      internalID: 7398920801281936818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Grabbed_1
+      rect:
+        serializedVersion: 2
+        x: 3944
+        y: 10530
+        width: 3944
+        height: 3510
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b3e5dbef056250b0800000000000000
+      internalID: -5741415455888383050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Grabbed_2
+      rect:
+        serializedVersion: 2
+        x: 7888
+        y: 10530
+        width: 3944
+        height: 3510
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39110ab83e1b70f80800000000000000
+      internalID: -8140342210590666349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Grabbed_3
+      rect:
+        serializedVersion: 2
+        x: 11832
+        y: 10530
+        width: 3944
+        height: 3510
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d9fb3ab23c1cc640800000000000000
+      internalID: 5101483482102364627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Grabbed_5
+      rect:
+        serializedVersion: 2
+        x: 3944
+        y: 7020
+        width: 3944
+        height: 3510
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e97dfd23878bdd10800000000000000
+      internalID: 2151462244481595879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Grabbed_6
+      rect:
+        serializedVersion: 2
+        x: 7888
+        y: 7020
+        width: 3944
+        height: 3510
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4d44ee6c0a644d40800000000000000
+      internalID: 5567691640969383247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Grabbed_7
+      rect:
+        serializedVersion: 2
+        x: 11832
+        y: 7020
+        width: 3944
+        height: 3510
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7efc4339816e4290800000000000000
+      internalID: -7904273054089544065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Grabbed_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3510
+        width: 3944
+        height: 3510
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fc7c20538462f190800000000000000
+      internalID: -7930165478697435918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Grabbed_9
+      rect:
+        serializedVersion: 2
+        x: 3944
+        y: 3510
+        width: 3944
+        height: 3510
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9630d899b86c06d80800000000000000
+      internalID: -8259383413718580375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Grabbed_10
+      rect:
+        serializedVersion: 2
+        x: 7888
+        y: 3510
+        width: 3944
+        height: 3510
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af07077380c895f50800000000000000
+      internalID: 6870676673448145146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Grabbed_11
+      rect:
+        serializedVersion: 2
+        x: 11832
+        y: 3510
+        width: 3944
+        height: 3510
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ce7dbb868b8280b0800000000000000
+      internalID: -5727862366075519295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Grabbed_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 3944
+        height: 3510
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 182df444bf9205a20800000000000000
+      internalID: 3048983106889437825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Grabbed_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7020
+        width: 3944
+        height: 3510
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb02274b52d37c64c9afa9944a2c39fd
+      internalID: -8733580438900339111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 440f6aa96bd75e245b05147955ea8405
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Player Grabbed_0: 7398920801281936818
+      Player Grabbed_1: -5741415455888383050
+      Player Grabbed_10: 6870676673448145146
+      Player Grabbed_11: -5727862366075519295
+      Player Grabbed_12: 3048983106889437825
+      Player Grabbed_2: -8140342210590666349
+      Player Grabbed_3: 5101483482102364627
+      Player Grabbed_4: -8733580438900339111
+      Player Grabbed_5: 2151462244481595879
+      Player Grabbed_6: 5567691640969383247
+      Player Grabbed_7: -7904273054089544065
+      Player Grabbed_8: -7930165478697435918
+      Player Grabbed_9: -8259383413718580375
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
