@@ -22,7 +22,7 @@ public class Totem : MonoBehaviour
     private List<GameObject> targets = new();
     private Transform currentTarget = null;
     private Coroutine findNewTarget;
-    
+
     void Awake()
     {
         StartCoroutine(DestroyObject());
@@ -109,13 +109,11 @@ public class Totem : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Player"))
         {
-            if (!targets.Contains(collision.gameObject))
+            if (!ReferenceEquals(collision.gameObject, Owner) && 
+                !targets.Contains(collision.gameObject))
             {
-                if (collision.gameObject != Owner)
-                {
-                    targets.Add(collision.gameObject);
-                    findNewTarget = StartCoroutine(FindNewTarget());
-                }
+                targets.Add(collision.gameObject);
+                findNewTarget = StartCoroutine(FindNewTarget());
             }
         }
     }

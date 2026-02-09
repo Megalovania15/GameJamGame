@@ -5,6 +5,9 @@ using UnityEngine;
 [RequireComponent(typeof(BoxCollider2D))]
 public class TentacleSegment : MonoBehaviour
 {
+    [SerializeField] private float segmentCreationTime = 1f;
+    [SerializeField] private float tentacleRange = 2f;
+
     [SerializeField] private GameObject segmentPrefab;
     [SerializeField] private GameObject tentaclePrefab;
 
@@ -57,12 +60,12 @@ public class TentacleSegment : MonoBehaviour
 
     private IEnumerator ChaseTarget()
     {
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSeconds(segmentCreationTime);
         if (head && remainingSegments > 0)
         {
             head = false;
             var direction = (target.transform.position - transform.position).normalized;
-            var position = transform.position + direction;
+            var position = transform.position + (direction * tentacleRange);
             var nextObject = Instantiate(segmentPrefab, position, Quaternion.identity);
             var nextSegment = nextObject.GetComponent<TentacleSegment>();
             nextSegment.head = true;
@@ -76,10 +79,12 @@ public class TentacleSegment : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (!ReferenceEquals(other.gameObject, Owner) && other.gameObject.GetComponent<IMortal>() != null)
+        if (!ReferenceEquals(other.gameObject, Owner) && other.gameObject.TryGetComponent<IMortal>(out IMortal mortal))
         {
             var tentacle = Instantiate(tentaclePrefab, other.gameObject.transform.position, Quaternion.identity);
             remainingSegments = 0;
+            mortal.Die(DeathType.Default);
+            Owner?.GetComponent<PlayerScore>().IncreaseKills();
         }
     }
 }

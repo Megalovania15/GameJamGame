@@ -32,14 +32,14 @@ public class PlayerUIAssignment : MonoBehaviour
     //if the index is not free, it will assign to the second one and so forth
     public void AssignUIToPlayer(GameObject player)
     {
-        if (player == null)
+        if (player is null)
         {
             Debug.Log("Player is missing");
         }
 
         for (int i = 0; i < playerScoreUI.Length; i++)
         {
-            if (playerScoreUI[i].Owner == null)
+            if (playerScoreUI[i].Owner is null)
             {
                 playerScoreUI[i].SetOwner(player);
                 break;

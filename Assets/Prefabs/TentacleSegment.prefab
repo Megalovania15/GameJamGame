@@ -101,6 +101,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 461a9dcad5926c04da24aea3bc37bc3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  segmentCreationTime: 0.5
+  tentacleRange: 1
   segmentPrefab: {fileID: 6818149279277224027}
   tentaclePrefab: {fileID: 6051617963961469186, guid: baf87b21256bbc549a037341398f116a, type: 3}
   target: {fileID: 0}
