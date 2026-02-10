@@ -4,29 +4,38 @@ using UnityEngine.Events;
 
 public class PlayerScore : MonoBehaviour
 {
-    private int kills = 0, deaths = 0;
+    public int Kills { get; private set; } = 0;
+    public int Deaths { get; private set; } = 0;
 
     [SerializeField]
     // passes k/d as int kills, int deaths
-    private UnityEvent<int, int> OnScoreChange = new();
+    private UnityEvent<GameObject, int, int> OnScoreChange = new();
+
+    private TMP_Text playerName;
+
+    void Start()
+    {
+        playerName = GetComponentInChildren<TMP_Text>();
+        playerName.text = gameObject.name;
+    }
 
     //increases this game object's kills
     public void IncreaseKills()
     {
-        kills++;
-        OnScoreChange.Invoke(kills, deaths);
-        Debug.Log($"{gameObject.name} kills: {kills}");
+        Kills++;
+        OnScoreChange.Invoke(this.gameObject, Kills, Deaths);
+        Debug.Log($"{gameObject.name} kills: {Kills}");
     }
 
     //increase this game object's deaths
     public void IncreaseDeaths()
     {
-        deaths++;
-        OnScoreChange.Invoke(kills, deaths);
-        Debug.Log($"{gameObject.name} deaths: {deaths}");
+        Deaths++;
+        OnScoreChange.Invoke(this.gameObject, Kills, Deaths);
+        Debug.Log($"{gameObject.name} deaths: {Deaths}");
     }
 
-    public void AddOnScoreChangeListener(UnityAction<int, int> action)
+    public void AddOnScoreChangeListener(UnityAction<GameObject, int, int> action)
     {
         OnScoreChange.AddListener(action);
     }

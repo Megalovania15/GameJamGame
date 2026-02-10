@@ -10,7 +10,7 @@ public class PlayerUI : MonoBehaviour
     void Awake()
     {
         scoreText = GetComponentInChildren<TMP_Text>();
-        UpdateText(0, 0);
+        UpdateText(this.gameObject, 0, 0);
     }
 
     public void SetOwner(GameObject newOwner)
@@ -19,7 +19,7 @@ public class PlayerUI : MonoBehaviour
         newOwner.GetComponent<PlayerScore>().AddOnScoreChangeListener(UpdateText);
     }
 
-    public void UpdateText(int kills, int deaths)
+    public void UpdateText(GameObject player, int kills, int deaths)
     {
         scoreText.text = $"Kills: {kills} / Deaths: {deaths}";
     }

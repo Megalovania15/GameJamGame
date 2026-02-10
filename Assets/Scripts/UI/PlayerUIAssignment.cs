@@ -21,7 +21,7 @@ public class PlayerUIAssignment : MonoBehaviour
     {
         foreach (var scoreUI in playerScoreUI)
         {
-            if (!scoreUI.gameObject.activeSelf && scoreUI.Owner != null)
+            if (!scoreUI.gameObject.activeSelf && scoreUI.Owner is not null)
             { 
                 scoreUI.gameObject.SetActive(true);
             }
@@ -30,7 +30,7 @@ public class PlayerUIAssignment : MonoBehaviour
 
     //will assign the first index to the first player
     //if the index is not free, it will assign to the second one and so forth
-    public void AssignUIToPlayer(GameObject player)
+    public void AssignUIToPlayer(GameObject player, int playerNumber)
     {
         if (player is null)
         {

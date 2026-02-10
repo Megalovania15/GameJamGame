@@ -12,7 +12,7 @@ public class PlayerManager : MonoBehaviour
     public int totalPlayers = 0;
     public List<GameObject> players;
 
-    public UnityEvent<GameObject> OnPlayerJoin;
+    public UnityEvent<GameObject, int> OnPlayerJoin;
 
 
     public Transform[] spawnPoints;
@@ -33,7 +33,7 @@ public class PlayerManager : MonoBehaviour
         totalPlayers++;
         players.Add(input.gameObject);
 
-        OnPlayerJoin.Invoke(input.gameObject);
+        OnPlayerJoin.Invoke(input.gameObject, totalPlayers);
 
         input.gameObject.transform.position = spawnPoints[totalPlayers-1].position;
 
