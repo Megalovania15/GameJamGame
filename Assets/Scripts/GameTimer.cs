@@ -9,7 +9,7 @@ public class GameTimer : MonoBehaviour
 
     [SerializeField] private float totalGameTime = 300f;
 
-    public UnityEvent OnTimeUp;
+    public static UnityEvent<bool> OnTimeUp = new();
 
     private TimeSpan gameSpan;
 
@@ -21,6 +21,7 @@ public class GameTimer : MonoBehaviour
     {
         gameSpan = TimeSpan.FromSeconds(totalGameTime);
         timerText.text = gameSpan.ToString(@"mm\:ss");
+        Time.timeScale = 1;
     }
 
     // Update is called once per frame
@@ -34,8 +35,9 @@ public class GameTimer : MonoBehaviour
 
             if (totalGameTime <= 0)
             {
-                OnTimeUp.Invoke();
                 timerActivated = false;
+                OnTimeUp.Invoke(totalGameTime <= 0);
+                Debug.Log("Time up event triggered.");
             }
         }
     }

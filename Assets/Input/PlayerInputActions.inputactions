@@ -43,7 +43,7 @@
                     "initialStateCheck": false
                 },
                 {
-                    "name": "Pause",
+                    "name": "TogglePause",
                     "type": "Button",
                     "id": "5a4b32c2-a59a-4e9f-b2a3-acb204c777a5",
                     "expectedControlType": "",
@@ -133,7 +133,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Pause",
+                    "action": "TogglePause",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
@@ -233,6 +233,15 @@
                     "type": "PassThrough",
                     "id": "864e74f6-fc89-45a5-a91b-405f11a99a3b",
                     "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "TogglePause",
+                    "type": "Button",
+                    "id": "9ebe2983-0605-48cd-8a80-ceb7e4eebe86",
+                    "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
@@ -423,6 +432,17 @@
                     "processors": "",
                     "groups": "",
                     "action": "Scrollwheel",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "e7d2dcee-a574-4832-8e43-8ffbc25c75a7",
+                    "path": "<Gamepad>/start",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "TogglePause",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

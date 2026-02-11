@@ -1,6 +1,6 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
-using UnityEngine.Windows;
+using UnityEngine.InputSystem.UI;
 
 public class CharacterController : MonoBehaviour
 {
@@ -23,9 +23,25 @@ public class CharacterController : MonoBehaviour
     // They communicate with each other via the animator too T.T
     public CharacterMovementController movementController;
 
+    private PlayerInput input;
+
+    public void OnEnable()
+    {
+        PauseMenuController.OnPause.AddListener(SwitchActionMap);
+        GameTimer.OnTimeUp.AddListener(SwitchActionMap);
+    }
+
+    public void OnDisable()
+    {
+        PauseMenuController.OnPause.RemoveListener(SwitchActionMap);
+        GameTimer.OnTimeUp.RemoveListener(SwitchActionMap);
+    }
+
     public void Awake()
     {
         movementController = GetComponent<CharacterMovementController>();
+        input = GetComponent<PlayerInput>();
+        input.uiInputModule = GameObject.Find("EventSystem").GetComponent<InputSystemUIInputModule>();
     }
 
     public void Action(InputAction.CallbackContext context)
@@ -52,6 +68,21 @@ public class CharacterController : MonoBehaviour
         if (context.performed)
         {
             anim.SetTrigger("attack");
+        }
+    }
+
+    public void SwitchActionMap(bool hasOpenUI)
+    {
+        //if is paused, this code runs. If the timer is activated, this doesn't run.
+        if (!hasOpenUI) 
+        {
+            Debug.Log("Current action map is basic actions");
+            input.SwitchCurrentActionMap("BasicActions");
+        }
+        else 
+        {
+            Debug.Log("Current action map is UI");
+            input.SwitchCurrentActionMap("UI");
         }
     }
 

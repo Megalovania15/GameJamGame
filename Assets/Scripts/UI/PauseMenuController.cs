@@ -1,11 +1,14 @@
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.InputSystem;
 
 public class PauseMenuController : MonoBehaviour
 {
+    public static UnityEvent<bool> OnPause = new();
+
     private GameObject pauseMenu;
-    [SerializeField]
-    private CharacterDeathToggles characterDeathToggles;
+
+    private InputAction pauseAction;
 
     private bool isPaused = false;
 
@@ -13,32 +16,59 @@ public class PauseMenuController : MonoBehaviour
     {
         pauseMenu = GameObject.Find("PauseMenuContainer").
             transform.GetChild(0).gameObject;
+        pauseAction = InputSystem.actions.FindAction("TogglePause");
         //characterDeathToggles = GetComponent<CharacterDeathToggles>();
 
         if (!isPaused)
         {
             pauseMenu.SetActive(false);
         }
+
+        pauseAction.performed += _ => { TogglePauseMenu(); };
     }
 
-    public void TogglePausedMenu(InputAction.CallbackContext context)
+    public void TogglePauseMenu()
     {
-        if (context.performed)
-        {
-            isPaused = !isPaused;
+        isPaused = !isPaused;
 
-            if (isPaused)
-            {
-                pauseMenu.SetActive(false);
-                Time.timeScale = 0f;
-                //characterDeathToggles.DisableCharacterComponents();
-            }
-            else
-            {
-                pauseMenu.SetActive(true);
-                Time.timeScale = 1f;
-                //characterDeathToggles.EnableCharacterComponents();
-            }
+        if (isPaused)
+        {
+            Debug.Log("Game has been paused");
+            PauseGame();
+            //characterDeathToggles.DisableCharacterComponents();
         }
+        else
+        {
+            Debug.Log("Game is unpaused");
+            ResumeGame();
+            
+            //characterDeathToggles.EnableCharacterComponents();
+        }
+
+        OnPause.Invoke(isPaused);
+    }
+
+    /*public void SwitchActionMap(bool hasOpenUI, PlayerInput inputs)
+    {
+        if (!isPaused)
+        {
+            input.SwitchCurrentActionMap("BasicActions");
+        }
+        else
+        {
+            input.SwitchCurrentActionMap("UI");
+        }
+    }*/
+
+    void PauseGame()
+    {
+        pauseMenu.SetActive(true);
+        Time.timeScale = 0f;
+    }
+
+    void ResumeGame()
+    {
+        pauseMenu.SetActive(false);
+        Time.timeScale = 1f;
     }
 }

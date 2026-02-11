@@ -9,6 +9,18 @@ public class EndGame : MonoBehaviour
 
     private List<PlayerScore> activePlayers = new();
 
+    void OnEnable()
+    {
+        GameTimer.OnTimeUp.AddListener(ActivateEndScreen);
+        Debug.Log("Listener added to on time up event");
+    }
+
+    void OnDisable()
+    {
+        GameTimer.OnTimeUp.RemoveListener(ActivateEndScreen);
+        Debug.Log("Listener removed from on time up event");
+    }
+
     void Start()
     {
         endGameScreen.SetActive(false);
@@ -20,17 +32,19 @@ public class EndGame : MonoBehaviour
         activePlayers.Add(player.GetComponent<PlayerScore>());
     }
 
-    public void ActivateEndScreen()
+    public void ActivateEndScreen(bool isGameOver)
     {
+        Debug.Log("The game is over");
         var winningPlayer = DetermineWinningPlayer();
         endGameScreen.SetActive(true);
+        Time.timeScale = 0;
         UpdateWinText(winningPlayer);
     }
 
     private void UpdateWinText(GameObject player)
     {
         var playerScore = player.GetComponent<PlayerScore>();
-        
+
         playerWinsText.text = $"{player.name} wins! With: " +
             $"\n{playerScore.Kills} kills! " +
             $"\nAnd {playerScore.Deaths} deaths!";
