@@ -16,7 +16,7 @@ public class PauseMenuController : MonoBehaviour
     {
         pauseMenu = GameObject.Find("PauseMenuContainer").
             transform.GetChild(0).gameObject;
-        pauseAction = InputSystem.actions.FindAction("TogglePause");
+        //pauseAction = InputSystem.actions.FindAction("TogglePause");
         //characterDeathToggles = GetComponent<CharacterDeathToggles>();
 
         if (!isPaused)
@@ -24,7 +24,7 @@ public class PauseMenuController : MonoBehaviour
             pauseMenu.SetActive(false);
         }
 
-        pauseAction.performed += _ => { TogglePauseMenu(); };
+       //pauseAction.performed += _ => { TogglePauseMenu(); };
     }
 
     public void TogglePauseMenu()

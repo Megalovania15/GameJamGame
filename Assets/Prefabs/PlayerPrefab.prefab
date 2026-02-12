@@ -63,9 +63,9 @@ Camera:
   m_NormalizedViewPortRect:
     serializedVersion: 2
     x: 0
-    y: 0.125
+    y: 0.376517
     width: 1
-    height: 0.75
+    height: 0.24696602
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 60
@@ -490,9 +490,45 @@ MonoBehaviour:
         m_CallState: 2
     m_ActionId: 41edbedf-01b6-40f6-9e7d-c48f0a0b20e4
     m_ActionName: 'BasicActions/Sprint[/XInputControllerWindows/rightShoulder]'
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 786db5aa-b781-4c51-8bd3-5a84f68f520a
+    m_ActionName: 'UI/Navigate[/XInputControllerWindows/dpad,/DualShock4GamepadHID/dpad,/XInputControllerWindows/leftStick/up,/DualShock4GamepadHID/leftStick/up,/XInputControllerWindows/rightStick/up,/DualShock4GamepadHID/rightStick/up,/XInputControllerWindows/leftStick/down,/DualShock4GamepadHID/leftStick/down,/XInputControllerWindows/rightStick/down,/DualShock4GamepadHID/rightStick/down,/XInputControllerWindows/leftStick/left,/DualShock4GamepadHID/leftStick/left,/XInputControllerWindows/rightStick/left,/DualShock4GamepadHID/rightStick/left,/XInputControllerWindows/leftStick/right,/DualShock4GamepadHID/leftStick/right,/XInputControllerWindows/rightStick/right,/DualShock4GamepadHID/rightStick/right]'
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 80ece55e-a94e-42e7-8521-bd0706fb9e96
+    m_ActionName: 'UI/Submit[/XInputControllerWindows/buttonSouth,/DualShock4GamepadHID/buttonSouth]'
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: ab80cd3b-fbe4-451d-8823-bc1f953bb841
+    m_ActionName: 'UI/Cancel[/XInputControllerWindows/buttonEast,/DualShock4GamepadHID/buttonEast]'
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: e3b1d0ff-a1da-46e8-8c71-47e63b658ccc
+    m_ActionName: 'UI/Point[/Mouse/position]'
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 765834df-c332-4b77-b9e5-8064b2d0a399
+    m_ActionName: 'UI/Click[/Mouse/leftButton]'
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 4e2bdfe5-f573-4e7c-991b-75e3c6832cbe
+    m_ActionName: 'UI/RightClick[/Mouse/rightButton]'
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 4ef30415-4be0-4cd4-944b-7e589a9c8964
+    m_ActionName: 'UI/MiddleClick[/Mouse/middleButton]'
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 864e74f6-fc89-45a5-a91b-405f11a99a3b
+    m_ActionName: 'UI/Scrollwheel[/Mouse/scroll]'
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 9ebe2983-0605-48cd-8a80-ceb7e4eebe86
+    m_ActionName: 'UI/TogglePause[/XInputControllerWindows/start,/DualShock4GamepadHID/start]'
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
-  m_DefaultActionMap: BasicActions
+  m_DefaultActionMap: 0780888f-fe2b-45c4-ab85-047504a49e00
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 1486273996886033017}
 --- !u!114 &1719270154451821308

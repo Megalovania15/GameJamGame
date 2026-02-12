@@ -2,6 +2,7 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.InputSystem.UI;
 
+//FIXME: Should also rename this, because there's a component with the same name
 public class CharacterController : MonoBehaviour
 {
     public MaskEquip maskEquip;
@@ -25,17 +26,17 @@ public class CharacterController : MonoBehaviour
 
     private PlayerInput input;
 
-    public void OnEnable()
+    /*public void OnEnable()
     {
-        PauseMenuController.OnPause.AddListener(SwitchActionMap);
-        GameTimer.OnTimeUp.AddListener(SwitchActionMap);
+        PauseMenuController.OnPause.AddListener(SwitchActionMapOnPause);
+        GameTimer.OnTimeUp.AddListener(SwitchActionMapOnGameOver);
     }
 
     public void OnDisable()
     {
-        PauseMenuController.OnPause.RemoveListener(SwitchActionMap);
-        GameTimer.OnTimeUp.RemoveListener(SwitchActionMap);
-    }
+        PauseMenuController.OnPause.RemoveListener(SwitchActionMapOnPause);
+        GameTimer.OnTimeUp.RemoveListener(SwitchActionMapOnGameOver);
+    }*/
 
     public void Awake()
     {
@@ -71,15 +72,32 @@ public class CharacterController : MonoBehaviour
         }
     }
 
-    public void SwitchActionMap(bool hasOpenUI)
+    //A bit of a hack for now, just to get this stuff to work
+    //It switches between the input action maps based on the context
+    public void SwitchActionMapOnPause(bool isPaused)
     {
         //if is paused, this code runs. If the timer is activated, this doesn't run.
-        if (!hasOpenUI) 
+        if (!isPaused) 
         {
             Debug.Log("Current action map is basic actions");
             input.SwitchCurrentActionMap("BasicActions");
         }
         else 
+        {
+            Debug.Log("Current action map is UI");
+            input.SwitchCurrentActionMap("UI");
+        }
+    }
+
+    public void SwitchActionMapOnGameOver(bool timerActivated)
+    {
+        //if is paused, this code runs. If the timer is activated, this doesn't run.
+        if (timerActivated)
+        {
+            Debug.Log("Current action map is basic actions");
+            input.SwitchCurrentActionMap("BasicActions");
+        }
+        else
         {
             Debug.Log("Current action map is UI");
             input.SwitchCurrentActionMap("UI");

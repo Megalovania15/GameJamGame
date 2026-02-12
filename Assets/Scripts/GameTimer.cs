@@ -36,7 +36,7 @@ public class GameTimer : MonoBehaviour
             if (totalGameTime <= 0)
             {
                 timerActivated = false;
-                OnTimeUp.Invoke(totalGameTime <= 0);
+                OnTimeUp.Invoke(timerActivated);
                 Debug.Log("Time up event triggered.");
             }
         }
